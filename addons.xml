@@ -13,7 +13,7 @@
                 <platform>all</platform>
 		<summary lang="en">palcoTV</summary>
 		<summary lang="da">palcoTV</summary>
-		<description lang="en">Biblioteca de listas XML, M3U y PLX de canales de TV de usuarios de la comunidad XBMC. Más información en http://palcotv.blogspot.com.es . Que lo disfrutes! ;)</description>
+		<description lang="en">Biblioteca de listas XML, M3U y PLX de canales de TV de usuarios de la comunidad XBMC. Más información en [COLOR lightyellow] http://palcotv.blogspot.com.es [/COLOR]. Que lo disfrutes! ;)</description>
 		<website>http://palcotv.blogspot.com.es</website>
 		<license>GPL 2.0</license>
 		<platform>all</platform>
@@ -23,9 +23,9 @@
 
 <addon id="repository.palcotv" name="palcoTV repository" version="1.0" provider-name="Juarrox">
 	<extension point="xbmc.addon.repository" name="palcoTV Addon Repository">
-		<info compressed="false">https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/Juarrox/palcotv.repository/tree/master/zips</datadir>
+		<info compressed="false">http://github.com/Juarrox/palcotv-repository/raw/master/addons.xml</info>
+		<checksum>http://github.com/Juarrox/palcotv-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/Juarrox/palcotv-repository/raw/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Instalacion de palcoTV</summary>
@@ -47,7 +47,7 @@
                 <platform>all</platform>
 		<summary lang="en">palcoTV</summary>
 		<summary lang="da">palcoTV</summary>
-		<description lang="en">Biblioteca de listas XML, M3U y PLX de canales de TV de usuarios de la comunidad XBMC. Más información en http://palcotv.blogspot.com.es . Que lo disfrutes! ;)</description>
+		<description lang="en">Biblioteca de listas XML, M3U y PLX de canales de TV de usuarios de la comunidad XBMC. Más información en [COLOR lightyellow] http://palcotv.blogspot.com.es [/COLOR]. Que lo disfrutes! ;)</description>
 		<website>http://palcotv.blogspot.com.es</website>
 		<license>GPL 2.0</license>
 		<platform>all</platform>
