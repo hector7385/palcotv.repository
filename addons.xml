@@ -37,10 +37,6 @@
 	</extension>
 </addon>
 
-		<info compressed="false">http://raw.github.com/al101/repository.SportsDevil/master/addons.xml</info>
-		<checksum>http://raw.github.com/al101/repository.SportsDevil/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/al101/repository.SportsDevil/master/</datadir>
-
 <addon
 	id="plugin.video.palcotv" version="0.2.8" name="palcoTV" provider-name="juarrox [juarrox@gmail.com]">
 	<requires>
