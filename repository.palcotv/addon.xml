@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.palcotv" name="palcoTV repository" version="1.0" provider-name="Juarrox">
+<addon id="repository.palcotv" name="palcoTV repository" version="1.0" provider-name="palcoTV by Juarrox">
 	<extension point="xbmc.addon.repository" name="palcoTV Addon Repository">
 		<info compressed="false">https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml.md5</checksum>
@@ -11,3 +11,4 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
