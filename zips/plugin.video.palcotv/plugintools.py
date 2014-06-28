@@ -382,6 +382,11 @@ def add_item( action="" , title="" , plot="" , url="" , thumbnail="" , fanart=""
         itemurl = '%s?action=%s&title=%s&url=%s&thumbnail=%s&plot=%s&extra=%s&page=%s' % ( sys.argv[ 0 ] , action , urllib.quote_plus( title ) , urllib.quote_plus(url) , urllib.quote_plus( thumbnail ) , urllib.quote_plus( plot ) , urllib.quote_plus( extra ) , urllib.quote_plus( page ))
         xbmcplugin.addDirectoryItem( handle=int(sys.argv[1]), url=itemurl, listitem=listitem, isFolder=folder)
 
+    
+
+       
+   
+
 def close_item_list():
     _log("close_item_list")
 
