@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon
-	id="plugin.video.palcotv" version="0.2.7" name="palcoTV" provider-name="juarrox [juarrox@gmail.com]">
+	id="plugin.video.palcotv" version="0.2.8" name="palcoTV" provider-name="juarrox [juarrox@gmail.com]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
         <import addon="plugin.video.youtube" version="3.0.0"/>
@@ -11,10 +11,13 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
                 <platform>all</platform>
-		<summary lang="en">palcoTV</summary>
-		<summary lang="da">palcoTV</summary>
-		<description lang="en">Biblioteca de listas XML, M3U y PLX de canales de TV de usuarios de la comunidad XBMC. Más información en [COLOR lightyellow] http://palcotv.blogspot.com.es [/COLOR]. Que lo disfrutes! ;)</description>
-		<website>http://palcotv.blogspot.com.es</website>
+		<summary lang="es">palcoTV</summary>
+		<description lang="es">Administrador de listas XML, M3U, P2P y PLX de canales de televisión de usuarios de XBMC.</description>
+		<description lang="es">[COLOR red][B]Colaboradores:[B][/COLOR] Reig, MadQuark, Serjah, Darío, Luis Toledo, Eusebio Sanchez</description>
+		<description lang="es">[B]Agradecimientos:[B] Jesús (pelisalacarta) y a todos los usuarios del spot XBMC de Spotbros</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+		<disclaimer lang="es">Algunas partes de este addon podrían no ser legales en tu país de residencia - por favor comprueba las leyes de tu país antes de su instalación.</disclaimer>
+		<website>[COLOR yellow][B]http://palcotv.blogspot.com.es[/B][/COLOR]</website>
 		<license>GPL 2.0</license>
 		<platform>all</platform>
 		<language>en</language>
