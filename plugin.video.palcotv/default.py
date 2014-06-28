@@ -21,7 +21,6 @@ import xbmcaddon
 import xbmcplugin
 
 import plugintools
-from addonwindow import *
 
 
 
