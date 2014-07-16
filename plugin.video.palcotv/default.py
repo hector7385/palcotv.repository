@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #------------------------------------------------------------
-# palcoTV - XBMC Add-on by Juarrox (juarrox@gmail.com)
-# Version 0.2.5 (15.05.2014)
+# PalcoTV - XBMC Add-on by Juarrox (juarrox@gmail.com)
+# Version 0.2.9 (12.07.2014)
 #------------------------------------------------------------
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
 # Gracias a la librería plugintools de Jesús (www.mimediacenter.info)
@@ -35,7 +35,8 @@ fanart = 'fanart.jpg'
 def run():
     
     plugintools.log("---> palcoTV.run <---")
-    plugintools.set_view(plugintools.LIST)
+
+    set_view()
     
     # Get params
     params = plugintools.get_params()
@@ -56,14 +57,25 @@ def main_list(params):
     plugintools.log("palcoTV.main_list "+repr(params))
     data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv028.xml")
 
+    set_view()
+
+    ForzarVista = plugintools.get_setting("ForzarVista")
+    if ForzarVista == True:
+        ModoVista = plugintools.get_setting("ViewMode")
+        if ModoVista == "lista":
+            xbmc.executebuiltin("Container.SetViewMode(50)")
+        elif ViewMode == "movies":
+            xbmc.executebuiltin("Container.SetViewMode(503)")
+        elif ViewMode == "thumbnails":
+            xbmc.executebuiltin("Container.SetViewMode(500)")           
+
     matches = plugintools.find_multiple_matches(data,'<menu_info>(.*?)</menu_info>')
     for entry in matches:
         title = plugintools.find_single_match(entry,'<title>(.*?)</title>')
         date = plugintools.find_single_match(entry,'<date>(.*?)</date>')
         plugintools.add_item( action="" , title = title + date , fanart = art+'fanart.jpg' , thumbnail=art+'icon.png' , folder = False , isPlayable = False )
 
-    data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv028.xml")
-    
+    data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv028.xml")        
     matches = plugintools.find_multiple_matches(data,'<channel>(.*?)</channel>')
     for entry in matches:
         title = plugintools.find_single_match(entry,'<name>(.*?)</name>')
@@ -116,7 +128,9 @@ def main_list(params):
 def play(params):
     # plugintools.direct_play(params.get("url"))
     # xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(params.get("url"))
+    plugintools.log("[PalcoTV 0.2.85]: Playing file...")
     plugintools.play_resolved_url( params.get("url") )  # Esta es la única línea de la función, por si falla el experimento
+    
             
               
  
@@ -237,7 +251,6 @@ def livestreams_subchannels(params):
     data = plugintools.find_single_match(data, name_subchannel+'(.*?)</channel>')
     info = plugintools.find_single_match(data, '<info>(.*?)</info>')
     title = params.get("title")
-    plugintools.set_view(plugintools.LIST)
     plugintools.add_item( action="" , title='[B]'+title+'[/B] [COLOR yellow]'+info+'[/COLOR]' , folder = False , isPlayable = False )
 
     subchannel = plugintools.find_multiple_matches(data , '<name>(.*?)</name>')
@@ -522,7 +535,7 @@ def simpletv_items(params):
                         i = i + 1
                         continue
           
-            if data.startswith("rtmp") == True:
+            if data.startswith("rtmp") == True or data.startswith("rtp") == True:
                 print "rtmp"
                 url = data
                 url = parse_url(url)
@@ -1912,8 +1925,9 @@ def p2p_items(params):
     thumbnail = plugintools.find_single_match(subcanal, '<thumbnail>(.*?)</thumbnail>')
     fanart = plugintools.find_single_match(subcanal, '<fanart>(.*?)</fanart>')
     plugintools.log("thumbnail= "+thumbnail)
-    filename = title + '.p2p'    
-    # Controlamos el caso en que no haya thumbnail
+    filename = title + '.p2p'
+
+    # Controlamos el caso en que no haya thumbnail en el menú de PalcoTV
     if thumbnail == "":
         thumbnail = art + 'p2p.png'
     elif thumbnail == 'name_rtmp.png':
@@ -1942,7 +1956,15 @@ def p2p_items(params):
     data = file.readline()
     num_items = len(file.readlines())
     print num_items
-
+    file.seek(0)
+    data = file.readline()
+    if data.startswith("default") == True:
+        data = data.replace("default=", "")
+        data = data.split(",")
+        thumbnail = data[0]
+        fanart = data[1]
+        plugintools.log("fanart= "+fanart)
+        
     # Leemos entradas
     i = 0
     file.seek(0)
@@ -1952,10 +1974,27 @@ def p2p_items(params):
         if data == "":
             data = file.readline()
             data = data.strip()
-            plugintools.log("linea vacia= "+data)
+            # plugintools.log("linea vacia= "+data)
             i = i + 1
             #print i
             continue
+        
+        elif data.startswith("default") == True:
+            data = file.readline()
+            data = data.strip()
+            i = i + 1
+            #print i
+            continue
+        
+        elif data.startswith("#") == True:
+            title = data.replace("#", "")
+            plugintools.log("title comentario= "+title)
+            plugintools.add_item(action="play" , title = title , thumbnail = thumbnail , fanart = fanart , folder = False , isPlayable = True)
+            data = file.readline()
+            data = data.strip()
+            i = i + 1
+            continue
+            
         else:
             title = data
             title = title.strip()
@@ -1982,12 +2021,31 @@ def p2p_items(params):
                 # plugin://plugin.video.xbmctorrent/play/ + <magnet_link>
                 url_fixed = urllib.quote_plus(data)
                 url = 'plugin://plugin.video.xbmctorrent/play/' + url_fixed
-                plugintools.add_item(action="play" , title = title + ' [COLOR lightyellow][Torrent][/COLOR]' , url = url, thumbnail = thumbnail , fanart = fanart , folder = False , isPlayable = True)
                 data = file.readline()
                 data = data.strip()
                 i = i + 1
-                #print i
-                continue
+                if data.startswith("art") == True:
+                    data = data.replace("art=", "")
+                    data = data.split(",")
+                    icon = data[0]
+                    wall = data[1]
+                    plugintools.add_item(action="play" , title = title + ' [COLOR lightyellow][Torrent][/COLOR]' , url = url, thumbnail = icon , fanart = wall , folder = False , isPlayable = True)
+                    thumbnail = thumbnail
+                    fanart = fanart
+                    data = file.readline()
+                    data = data.strip()
+                    i = i + 1
+                    #print i
+                    continue
+                
+                else:                    
+                    plugintools.add_item(action="play" , title = title + ' [COLOR lightyellow][Torrent][/COLOR]' , url = url, thumbnail = thumbnail , fanart = fanart , folder = False , isPlayable = True)
+                    plugintools.log("fanart= "+fanart)
+                    data = file.readline()
+                    data = data.strip()
+                    i = i + 1
+                    #print i
+                    continue
             else:
                 print "empieza el acestream..."
                 # plugin://plugin.video.p2p-streams/?url=a55f96dd386b7722380802b6afffc97ff98903ac&mode=1&name=Sky+Sports+title
@@ -2256,7 +2314,35 @@ def futbolenlatv_manana(params):
     futbolenlatv(params)
     
 
-                    
+
+def set_view():
+
+    xbmcplugin.setContent(int(sys.argv[1]), 'movies')
+    xbmcplugin.setContent(int(sys.argv[1]), 'tvshows')
+    xbmcplugin.setContent(int(sys.argv[1]), 'episodes')
+    xbmcplugin.setContent(int(sys.argv[1]), 'season')
+
+    ForzarVista = plugintools.get_setting("ForzarVista")
+    if ForzarVista == "true":
+        skin_used = xbmc.getSkinDir()
+        plugintools.log("Skin en uso= "+skin_used)
+        ModoVista = plugintools.get_setting("ViewMode")
+        if ModoVista == "lista":
+            plugintools.set_view(plugintools.LIST)
+        elif ModoVista == "movies":
+            plugintools.set_view(plugintools.MOVIES)
+            # xbmc.executebuiltin("Container.SetViewMode(500)")
+        elif ModoVista == "thumbnails":
+            plugintools.set_view(plugintools.SEASONS)
+            xbmc.executebuiltin("Container.SetViewMode(503)")
+    else:
+        xbmc.executebuiltin("Container.SetViewMode(50)")
+          
+
+
+
 run()
+
+
 
 

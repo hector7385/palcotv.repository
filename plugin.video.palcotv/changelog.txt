@@ -59,3 +59,9 @@ palcoTV 0.2.8
 - Las listas se guardan con su extensión correspondiente (*.M3U, *.PLX, *.P2P)
 
 
+palcoTV 0.2.85
+
+- Soporte de canales de Movistar TV (utilizando la conexión del abonado)
+- Soporte de thumbnails, fanarts y comentarios en las listas P2P, tanto por defecto en la lista como para cada entrada
+
+

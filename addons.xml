@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon
-	id="plugin.video.palcotv" version="0.2.8" name="palcoTV" provider-name="juarrox [juarrox@gmail.com]">
+	id="plugin.video.palcotv" version="0.2.85" name="PalcoTV" provider-name="juarrox [juarrox@gmail.com]">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
         <import addon="plugin.video.youtube" version="3.0.0"/>
@@ -24,7 +24,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.palcotv" name="palcoTV repository" version="1.0.1" provider-name="PalcoTV by Juarrox">
+<addon id="repository.palcotv" name="PalcoTV Repository" version="1.0.1" provider-name="PalcoTV by Juarrox">
 	<extension point="xbmc.addon.repository" name="palcotv.repository">
 		<info compressed="false">https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml.md5</checksum>
