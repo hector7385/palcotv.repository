@@ -1,0 +1,101 @@
+#EXTINF:-1,TV3
+rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/stream_ES_TV3_FLV
+
+#EXTINF:-1,IB3 (Op. 1)
+http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/IB3.m3u8
+
+#EXTINF:-1,IB3 (Op. 2)
+rtmp://ib3tvlivefs.fplive.net/ib3tvlive-live playpath=streamib3 swfUrl=http://ib3cdn.s3.amazonaws.com/player/player.swf live=1 pageUrl=http://www.omegateam.byethost7.com/ch/i-ib3.php --live
+
+#EXTINF:-1,TV3 CAT (Op. 1)
+http://tv3catnogeo-live.hls.adaptive.level3.net/tv3/tv3cat/tv3cat/tv3cat.m3u8
+
+#EXTINF:-1,TV3 CAT (Op. 2)
+http://www.tv3.cat/directetv3cat/tv3catpc.m3u8
+
+#EXTINF:-1,Esport 3 (Op. 1)
+rtmp://$OPT:rtmp-raw=rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/ playpath=stream_ES_ES3_FLV swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1
+
+#EXTINF:-1,ESPORT3 (Op. 2)
+rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/stream_ES_ES3_FLV
+
+#EXTINF:-1,CANAL33/SUPER3
+rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/stream_ES_33D_FLV
+
+#EXTINF:-1,3/24
+rtmp://tv-nogeo-flashlivefs.fplive.net:1935/tv-nogeo-flashlive-live?ovpfv=1.1/stream_324_FLV
+
+#EXTINF:-1,8TV
+rtmp://94.23.54.177/8TV playpath=8aldia-directe swfUrl=http://css01.mundodeportivo.com/imagenes/players/player.swf pageURL=http://narrowcast.lavanguardia.com live=true
+
+#EXTINF:-1,ANDORRA TELEVISIÓ
+rtmp://194.158.80.31/live playpath=rtva swfUrl=http://www.andorradifusio.ad/live_gran.swf pageUrl=http://www.andorradifusio.ad/atv-en-directe live=1
+
+#EXTINF:-1,LEVANTE TV (València)
+rtmp://$OPT:rtmp-raw=rtmp://teledifusion.tv:1935/levantetvlive playpath=levantetvlive swfUrl=http://www.levantetv.es/servicios/streaming/player.swf live=1 pageUrl=http://www.levantetv.es/
+
+#EXTINF:-1,INFORMACIONTV (Alacant)
+rtmp://$OPT:rtmp-raw=rtmp://teledifusion.tv:1935/informaciontvlive playpath=informaciontvlive swfUrl=http://www.informaciontv.es/servicios/streaming/player.swf live=1 pageUrl=http://www.informaciontv.es/
+
+#EXTINF:-1,BARCELONA TV
+http://195.10.10.206/barcelonatv/barcelonatv-high.flv?token=78174d95560826bab4af49c77b80e9da52a2f36a52a44526&GKID=8adc4e985f2711e39eff00163ea2c744&fspref=aHR0cDovL21lZGlhMC53ZWJ0di5mbHVtb3Rpb24uY29tL2N1c3QvYmFyY2Vsb25hdHYvL3N0YXRpYy9wbGF5ZXIvYXVkaW8vY3VycmVudC9QbGF5ZXJTdHJvYmUtdmI2ZjBhYzM4LnN3Zg%3D%3D
+
+#EXTINF:-1,GIRONA TV
+rtmp://tvgirona.dnssw.net/live/ playpath=Icontouch swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf pageUrl=http://www.tvgirona.cat/playertvgirona/playertvgirona.htm live=1
+
+#EXTINF:-1,TV BADALONA (Op. 1)
+rtmp://directe.tvbadalona.cat/live playpath=myStream.sdp swfUrl=http://www.teleb.cat/directe/flowplayer-3.2.5.swf?0.7652843222938107 pageUrl=http://www.teleb.cat/directe/ live=1
+
+#EXTINF:-1,TV BADALONA (Op. 2)
+rtmp://$OPT:rtmp-raw=rtmp://directe.tvbadalona.cat/live playpath=myStream.sdp swfUrl=http://www.teleb.cat/directe/flowplayer-3.2.5.swf?0.7652843222938107 live=1 pageUrl=http://www.teleb.cat/directe/
+
+#EXTINF:-1,RAC105 TV
+rtmp://213.251.177.11:1935/liverepeater/105TV/directe
+
+#EXTINF:-1,TELETAXI TV
+http://195.10.10.206/gtt/teletaxitv.flv?GKID=019fe67002c011e4a80500163e914f69
+
+#EXTINF:-1,ALCOI TELEVISIÓ (no funciona todavía)
+rtmp://origin.nirestream.tv:80/livetva playpath=Tva swfUrl=http://tv-a.es/visor/visor_webcam.swf pageUrl=http://tv-a.es/tv-en-directo.php?reproducir=webDirecto&redirect=off
+
+#EXTINF:-1,TELEELX (no funciona todavía)
+rtmp://213-253.livestream.com:1935/mogulus-stream-edge/teleelx<playpath>rtmp://212-169.livestream.com/affiliateStream/teleelx/6c69766572657065617465723a72746d703a2f2f3231322d3136392e6c69766573747265616d2e636f6d2f6d6f67756c75732f74656c65656c782f73747265616d <swfUrl>http://cdn.livestream.com/chromelessPlayer/v21/playerapi.swf?mute=false&iconColorOver=0x888888&jsEnabled=false&autoPlay=true&iconColor=0x777777&color=0xe7e7e7 <pageUrl>http://www.infoexpres.es/teleelx2.asp <objectEncoding>
+
+#EXTINF:-1,TV CASTELLÓ (no funciona todavía)
+rtmp://188.165.230.206/directo playpath=livestream swfUrl=http://www.tvcs.tv/skins2.3.5/awes/player.swf pageUrl=http://www.tvcs.tv/endirecto/
+
+#EXTINF:-1,RIBERA TELEVISIÓ (no funciona todavía)
+rtmp://flash3.todostreaming.es:1935/ribera playpath=livestream swfUrl=http://www.todostreaming.es/player_new.swf pageUrl=http://www.riberatelevisio.com/ <objectEncoding>
+
+#EXTINF:-1,CANAL7 TELEVALENCIA (no funciona todavía)
+http://live.canal7televalencia.es/live/liveId=9E9557EFCEBB43A89CEC8FBD3C500247024
+
+#EXTINF:-1,MEDITERRANEO TV (no funciona todavía)
+http://webtv.tvmediterraneo.es/live/?liveId=489DDF7FE98241D19D8970314BC9D3EF021
+
+#EXTINF:-1,CANAL 8 TELENORD (no funciona todavía)
+rtmp://www.hostingcaribe.com:1935/canal8/mp4:canal8.mp4
+
+#EXTINF:-1,VENDRELL TELEVISIÓ (no funciona todavía)
+http://es.justin.tv/televisioelvendrell
+
+#EXTINF:-1,VALLÈS ORIENTAL TELEVISIÓ (no funciona todavía)
+rtmp://xiptv-streaming.gnuine.com/ocasional5
+
+#EXTINF:-1,VALLES VISIO TELEVISIÓ (no funciona todavía)
+rtmp://www.vallesvisio.cat/endirecte
+
+#EXTINF:-1,CANAL TERRASSA (no funciona todavía)
+http://www.telepuertovirtual1.tv/terrassa
+
+#EXTINF:-1,CANAL56 MAESTRAT (no funciona todavía)
+http://www.livestream.com/canal56tv
+
+#EXTINF:-1,TELEWEB MALLORCA (no funciona todavía)
+http://dfw1-2.videocdn.scaleengine.net/fakelive/MA-DE
+
+#EXTINF:-1,TV EIVISSA (no funciona todavía)
+http://82.223.211.129/TEF
+
+#EXTINF:-1,MOLA TV (no funciona todavía)
+http://www.molatv.cat/

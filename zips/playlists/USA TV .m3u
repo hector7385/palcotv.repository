@@ -1,0 +1,376 @@
+﻿#EXTM3U
+
+#EXTINF:-1,[COLOR yellow][B]Actualización: 06-06-2014                                                                                                                [/B][/COLOR]
+http://
+
+#EXTINF:-1,[COLOR red]                                                                                                                                                           [/COLOR]
+http://
+
+#EXTINF:-1,[COLOR green]  [B] For series and movies, we recommend the List [COLOR red]USA Films        [/B]                                                                                                                     [/COLOR]
+http://
+
+#EXTINF:-1,[COLOR red]                                                                                                                                                           [/COLOR]
+http://
+
+#EXTINF:-1,Fashionbox
+http://stream1.zoovision.com//livespi/fashionbox/playlist.m3u8 
+#EXTINF:-1,Docubox
+http://stream1.zoovision.com//livespi/docubox/playlist.m3u8 
+#EXTINF:-1,Arthouse
+http://stream1.zoovision.com//livespi/arthouse/playlist.m3u8 
+#EXTINF:-1,Fightbox
+http://stream1.zoovision.com//livespi/fightbox/playlist.m3u8 
+#EXTINF:-1,Fastnfun
+http://stream1.zoovision.com//livespi/fastnfun/playlist.m3u8 
+
+#EXTINF:-1,Sports Usa Full HD (1080) 
+http://pac12hd2-lh.akamaihd.net/i/p12ariz_delivery@132836/master.m3u8 
+#EXTINF:-1,Sports Usa Full HD (1080) (Opt. 2)
+http://pac12hd2-lh.akamaihd.net/i/p12baya_delivery@132837/master.m3u8 
+#EXTINF:-1,Sports Usa Full HD (1080) (Opt.3)
+http://pac12hd2-lh.akamaihd.net/i/p12losa_delivery@132838/master.m3u8 
+#EXTINF:-1,Sports Usa Full HD (1080) (Opt. 4)
+http://pac12hd2-lh.akamaihd.net/i/p12oreg_delivery@132835/master.m3u8 
+#EXTINF:-1,Sports Usa Full HD (1080) (Opt. 5)
+http://pac12hd2-lh.akamaihd.net/i/p12moun_delivery@132839/master.m3u8 
+#EXTINF:-1,Sports Usa Full HD (1080) (Opt. 6)
+http://pac12hd2-lh.akamaihd.net/i/p12wash_delivery@132841/master.m3u8 
+#EXTINF:-1,Sports Usa Full HD (1080) (Opt. 7)
+http://pac12hd2-lh.akamaihd.net/i/p12netw_delivery@132840/master.m3u8
+
+#EXTINF:-1, AMC
+rtmpe://watch.playfooty.tv/live playpath=amc1569 swfUrl=http://www.playfooty.tv/play/player/player.swf live=1 pageUrl=http://www.playfooty.tv/play/embed.php?u=amc1569&vw=600&vh=430
+
+#EXTINF:-1,HBO 2 (USA)
+http://8.12.105.44:8085/udp/239.34.153.91:1234
+
+
+#EXTINF:-1,CBS (FullHD 1024)
+http://8.12.105.26:8085/btv_00563/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+
+#EXTINF:-1,NBA TV HD
+http://nba247.cdnak.nbahd.neulion.com/mobile/nba/nba247/as/live/ipad_1840.m3u8
+#EXTINF:-1,NTV Football
+http://hls01-07.az.myvideo.az/hls-live/livepkgr/ntvfootball/ntvfootball/ntvfootball.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,NTV Online
+http://hls01-09.az.myvideo.az/hls-live/livepkgr/ntvonline/ntvonline/ntvonline.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,NTV SPOR
+http://hls01-08.az.myvideo.az/hls-live/livepkgr/ntvspor/ntvspor/ntvspor.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,SPORT TIME TV 1HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel1_1200
+#EXTINF:-1,SPORT TIME TV 1HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel1_800
+#EXTINF:-1,SPORT TIME TV 2HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel2_1200
+#EXTINF:-1,SPORT TIME TV 2HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel2_800
+#EXTINF:-1,SPORT TIME TV 3HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel3_800
+#EXTINF:-1,SPORT TIME TV 3HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel3_1200
+#EXTINF:-1,SPORT TIME TV 4HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel4_800
+#EXTINF:-1,SPORT TIME TV 4HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel4_1200
+#EXTINF:-1,SPORT TIME TV 5HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_800
+#EXTINF:-1,SPORT TIME TV 5HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_1200
+#EXTINF:-1,SPORT TIME TV 6HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel6_800
+#EXTINF:-1,SPORT TIME TV7 HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel7_800
+#EXTINF:-1,SPORT TIME TV7 HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel7_1200
+#EXTINF:-1,Sport1
+
+
+
+#EXTINF:-1,NBC usa
+http://8.12.105.26:8085/btv_00564/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+#EXTINF:-1,ABC HD usa
+http://8.12.105.26:8085/btv_00566/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+#EXTINF:-1,LWN (EN)
+http://8.12.105.26:8085/btv_00575/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+#EXTINF:-1,MY9 (EN)
+http://8.12.105.26:8085/btv_00567/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+#EXTINF:-1,FOX5 (EN)
+http://8.12.105.26:8085/btv_00565/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+#EXTINF:-1,CBS usa
+http://8.12.105.26:8085/btv_00563/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+#EXTINF:-1,WGN Sports (EN)
+http://8.12.105.26:8085/btv_00576/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+#EXTINF:-1,PIX2 (EN)
+http://8.12.105.26:8085/btv_00568/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+
+#EXTINF:-1,NFL TV
+rtmp://46.246.29.130:1935/stream/bdpZdSfpz0.stream swfUrl=http://thecdn.04stream.com/p/boopo.swf live=true timeout=15 swfVfy=1 pageUrl=http://www.04stream.com
+#EXTINF:-1,USA - College Football PAC Arizona 720p
+http://goo.gl/yy2Y0F
+#EXTINF:-1,USA - College Football PAC Arizona SD
+http://goo.gl/zFAlPa
+#EXTINF:-1,USA - College Football PAC Bay Area 720p
+http://goo.gl/gHG3ty
+#EXTINF:-1,USA - College Football PAC Bay Area SD
+http://goo.gl/N741Sk
+#EXTINF:-1,USA - College Football PAC Los Angeles 720p
+http://goo.gl/m4Xaul
+#EXTINF:-1,USA - College Football PAC Los Angeles SD
+http://goo.gl/4L4fym
+#EXTINF:-1,USA - College Football PAC National 1080p
+http://goo.gl/QihNtv
+#EXTINF:-1,USA - College Football PAC National 720p
+http://goo.gl/0CofPI
+#EXTINF:-1,USA - College Football PAC National SD
+http://goo.gl/hwnFUD
+#EXTINF:-1,USA - College Football PAC Washington 720p
+http://goo.gl/ZOww80
+#EXTINF:-1,USA - College Football PAC Washington SD
+http://goo.gl/cJQF9D
+#EXTINF:-1,USA - PAC-12 Net. (Arizona)
+http://xrxs.net/video/live-p12ariz-4728.m3u8
+#EXTINF:-1,USA - PAC-12 Net. (Bay Area)
+http://xrxs.net/video/live-p12baya-4728.m3u8
+#EXTINF:-1,USA - PAC-12 Net. (Los Angeles)
+http://xrxs.net/video/live-p12losa-4728.m3u8
+#EXTINF:-1,USA - PAC-12 Net. (National)
+http://xrxs.net/video/live-p12netw-4728.m3u8
+
+#EXTINF:-1,CNN
+http://hls.novotelecom.ru/streaming/cnn/tvrec/playlist.m3u8
+
+#EXTINF:-1,MSNBC
+rtmp://c.cdn.livenewschat.eu/edge playpath=msnbc_live swfUrl=http://msnbclive.eu/player.swf swfVfy=1 live=1 pageUrl=http://weplaylive.tv timeout=15
+
+#EXTINF:-1,ABC News
+http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8?sd=10&b=1200&rebase=on
+
+
+#EXTINF:-1,EI (EN) 
+http://8.12.105.26:8085/btv_00562/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,CBS 
+http://8.12.105.26:8085/btv_00563/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,NBC 
+http://8.12.105.26:8085/btv_00564/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,FOX5 (EN) 
+http://8.12.105.26:8085/btv_00565/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,ABC7 (EN) 
+http://8.12.105.26:8085/btv_00566/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,MY9 (EN) 
+http://8.12.105.26:8085/btv_00567/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,PIX2 (EN) 
+http://8.12.105.26:8085/btv_00568/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,Ion Life (EN) 
+http://8.12.105.26:8085/btv_00574/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,LWN (EN) 
+http://8.12.105.26:8085/btv_00575/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,WGN Sports (EN) 
+http://8.12.105.26:8085/btv_00576/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf
+
+
+
+#EXTINF:-1,ABC7 (EN) 
+http://8.12.105.26:8085/btv_00566/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,Access San Francisco 1 
+rtmp://208.69.42.59/live/stream29 
+#EXTINF:-1,Amazing Facts TV 
+http://bglive-w.bitgravity.com/amazingfacts/live/feed01 
+#EXTINF:-1,American Horrors 
+rtmp://204.107.26.252:8086/live/393.high.stream 
+#EXTINF:-1,Bloomberg 
+http://cdn3.videos.bloomberg.com/btv/us/master.m3u8 
+#EXTINF:-1,Bloomberg UK TV 
+http://www.bloomberg.com/streams/video/LiveUK_nb.asx 
+#EXTINF:-1,CBS 
+http://8.12.105.26:8085/btv_00563/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,Clubbing TV 
+rtmp://204.107.26.252:8086/live/691.high.stream 
+#EXTINF:-1,C-SPAN 1 TV 
+rtmp://cp82346.live.edgefcs.net/live/CSPAN1@14845 
+#EXTINF:-1,C-SPAN 2 TV 
+rtmp://cp82347.live.edgefcs.net/live/CSPAN2@14846 
+#EXTINF:-1,C-SPAN 2 TV 
+rtmp://cp82348.live.edgefcs.net/live/CSPAN3@14847 
+#EXTINF:-1,Denver 8 TV 
+rtsp://207.7.154.96/G0080_002?wmcache=0 
+#EXTINF:-1,DW-TV North America audiovideoweb US 
+http://win.2.c2.audiovideoweb.com/2c2winlive2131 
+#EXTINF:-1,Ebru TV 
+rtmp://204.107.26.252:8086/live/914.high.stream 
+#EXTINF:-1,EI (EN) 
+http://8.12.105.26:8085/btv_00562/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,eScapes HD TV 
+rtmp://204.107.26.252:8086/live/341.high.stream 
+#EXTINF:-1,Florida-CarolCablesTV 
+rtsp://207.7.154.95/G0937_002?wmcache=0 
+#EXTINF:-1,Florida-MiamiCh77TV 
+rtsp://207.7.154.95/G0400_002?wmcache=0 
+#EXTINF:-1,FOX5 (EN) 
+http://8.12.105.26:8085/btv_00565/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+
+#EXTINF:-1,Havoc Television 
+rtmp://204.107.26.252:8086/live/335.high.stream 
+#EXTINF:-1,HSN TV 
+rtsp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:420p500kB31 
+#EXTINF:-1,iFlix TV 
+rtmp://204.107.26.252:8086/live/1991.high.stream 
+#EXTINF:-1,Ion Life (EN) 
+http://8.12.105.26:8085/btv_00574/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,JBLive.TV 
+rtsp://videocdn-us.geocdn.scaleengine.net/jblive/live/jblive.stream 
+#EXTINF:-1,JCTV 
+http://nstream.trinetsolutions.com/wmedia-live/tbn/8032/300_tbn-jctv_050222.asx 
+#EXTINF:-1,JCTV Music, Mobile, Music Blender, Others US 
+http://www.jctv.org/watchlive/jc-tv200.asx 
+#EXTINF:-1,Kamu TV 
+http://winstream.kamu.tamu.edu/kamu-tv?MSWMExt=.asf 
+#EXTINF:-1,KETN http://206.227.61.20/live 
+#EXTINF:-1,LWN (EN) 
+http://8.12.105.26:8085/btv_00575/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,Mission TV 
+rtmp://streamer1.streamhost.org/salive/GMImissiontvh 
+#EXTINF:-1,MY9 (EN) 
+http://8.12.105.26:8085/btv_00567/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,NBC 
+http://8.12.105.26:8085/btv_00564/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,News 12 Long Island(Stream 1) 
+rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b4e3010000000000/fs-b4e3010000000000 
+#EXTINF:-1,News Bronx(Stream 1) 
+rtmp://fs-b5e3010000000000.id.cdn.cv.net/vxedge/fs-b5e3010000000000/fs-b5e3010000000000 
+#EXTINF:-1,News Bronx(Weather) 
+rtmp://fs-afe3010000000000.id.cdn.cv.net/vxedge/fs-afe3010000000000/fs-afe3010000000000 
+#EXTINF:-1,News Brooklyn(Stream 1) 
+rtmp://fs-ace3010000000000.id.cdn.cv.net/vxedge/fs-ace3010000000000/fs-ace3010000000000 
+#EXTINF:-1,News Connecticut(Stream 1) 
+rtmp://fs-bbe3010000000000.id.cdn.cv.net/vxedge/fs-bbe3010000000000/fs-bbe3010000000000 
+#EXTINF:-1,News Connecticut(Weather) 
+rtmp://fs-b6e3010000000000.id.cdn.cv.net/vxedge/fs-b6e3010000000000/fs-b6e3010000000000 
+#EXTINF:-1,News Hudson Valley(Stream 1) 
+rtmp://fs-bae3010000000000.id.cdn.cv.net/vxedge/fs-bae3010000000000/fs-bae3010000000000 
+#EXTINF:-1,News Hudson Valley(Weather) 
+rtmp://fs-b8e3010000000000.id.cdn.cv.net/vxedge/fs-b8e3010000000000/fs-b8e3010000000000 
+#EXTINF:-1,News Long Island(Stream 2) 
+rtmp://fs-b94e110000000000.id.cdn.cv.net/vxedge/fs-b94e110000000000/fs-b94e110000000000 
+#EXTINF:-1,News Long Island(Weather) 
+rtmp://fs-aee3010000000000.id.cdn.cv.net/vxedge/fs-aee3010000000000/fs-aee3010000000000 
+#EXTINF:-1,News New Jersey(Stream 1) 
+rtmp://fs-b9e3010000000000.id.cdn.cv.net/vxedge/fs-b9e3010000000000/fs-b9e3010000000000 
+#EXTINF:-1,News New Jersey(Weather) 
+rtmp://fs-b3e3010000000000.id.cdn.cv.net/vxedge/fs-b3e3010000000000/fs-b3e3010000000000 
+#EXTINF:-1,News Westchester(Stream 1) 
+rtmp://fs-bce3010000000000.id.cdn.cv.net/vxedge/fs-bce3010000000000/fs-bce3010000000000 
+#EXTINF:-1,Outdoor Channel 
+rtmp://lm02.everyon.tv:1935/ptv2/pld613 
+#EXTINF:-1,Pentagon Channel 
+rtmp://cp114761.live.edgefcs.net:443/live/tpc-live_1@44263 
+#EXTINF:-1,PIX2 (EN) 
+http://8.12.105.26:8085/btv_00568/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,Press TV 
+rtmp://204.107.26.252:8086/live/905.high.stream 
+#EXTINF:-1,Psychic Today 
+rtmp://204.107.26.252:8086/live/1711.high.stream 
+#EXTINF:-1,QVC HD 
+rtmp://204.107.26.252:8086/live/413.high.stream 
+#EXTINF:-1,RT America 
+http://odna.octoshape.net/f3f5m2v4/cds/ch4_320p/blizznow.m3u8 
+#EXTINF:-1,Sportskool 
+rtmp://204.107.26.252:8086/live/686.high.stream 
+#EXTINF:-1,Texas-KumaTV 
+rtsp://winstream.kamu.tamu.edu/kamu-tv 
+#EXTINF:-1,The Florida Channel 
+rtmp://webcasting.thefloridachannel.org/live/tvweb1 
+#EXTINF:-1,Time TV 
+rtmp://204.107.26.252:8086/live/414.high.stream 
+#EXTINF:-1,TVC Latino 
+rtmp://204.107.26.252:8086/live/213.high.stream 
+#EXTINF:-1,University of California TV 
+rtmp://ucsdtv-wowza.ucsd.edu:1935/live/live_800 
+#EXTINF:-1,US TWit 
+http://bglive-a.bitgravity.com/twit/live/high 
+#EXTINF:-1,Wealth TV 
+rtmp://204.107.26.252:8086/live/403.high.stream 
+#EXTINF:-1,WGN Sports (EN) 
+http://8.12.105.26:8085/btv_00576/?uid=b906cdf6ff69e5ee480f6b9a1dc8dfcf 
+#EXTINF:-1,YouToo 
+rtmp://204.107.26.252:8086/live/773.high.stream
+
+
+
+
+
+#EXTINF:-1,US TWit
+http://bglive-a.bitgravity.com/twit/live/high
+#EXTINF:-1,Amazing Facts TV
+http://bglive-w.bitgravity.com/amazingfacts/live/feed01
+#EXTINF:-1,Animal Planet HD USA
+http://iphone-streaming.ustream.tv/uhls/12762028/streams/live/iphone/hasbahca.m3u8
+#EXTINF:-1,Denver 8 TV mms
+mms://207.7.154.96/G0080_002?wmcache=0
+#EXTINF:-1,Denver 8 TV mms
+mms://207.7.154.96/G0080_002?wmcache=0
+#EXTINF:-1,CBN TV mmsh
+mmsh://live1.cbn.org/iptv1
+#EXTINF:-1,NBA TV HD
+rtmp://46.246.29.141:1935/stream/ playpath=K8l9h6j8.stream swfUrl=http://thecdn.04stream.com/p/boopo.swf live=schuster92 pageUrl=http://04stream.com/
+#EXTINF:-1,ESPN America
+rtmp://46.246.29.142:1935/stream/ playpath=546yrgv.stream swfUrl=http://thecdn.04stream.com/p/ooolo1.swf live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=other&width=600&height=460&st=y264x236v59406144333r2q2b413p2q2u274q2u2z294&adx=&stream=z2b4549474s254m5e42323v26403w2l2z274y2u4o4k5n434w233m22464b4v2u2u2a4v274a443r223x284s4w5k5i2k5p5r4b4b4g466p2o2n4r204p2q274h5t2a4s294q2g524n5d4y27474e4k5c4y2x233v26474g564q2h59413b4z2w234t2o2l2r204p2q2r2g5p4&sooor=MzI=&str=is&idom=www.firstrow1.eu
+#EXTINF:-1,News Brooklyn(Stream 1)
+rtmp://fs-ace3010000000000.id.cdn.cv.net/vxedge/fs-ace3010000000000/fs-ace3010000000000
+#EXTINF:-1,News Long Island(Weather)
+rtmp://fs-aee3010000000000.id.cdn.cv.net/vxedge/fs-aee3010000000000/fs-aee3010000000000
+#EXTINF:-1,News Bronx(Weather)
+rtmp://fs-afe3010000000000.id.cdn.cv.net/vxedge/fs-afe3010000000000/fs-afe3010000000000
+#EXTINF:-1,News Brooklyn(Weather)
+rtmp://fs-afe3010000000000.id.cdn.cv.net/vxedge/fs-afe3010000000000/fs-afe3010000000000
+#EXTINF:-1,News New Jersey(Weather)
+rtmp://fs-b3e3010000000000.id.cdn.cv.net/vxedge/fs-b3e3010000000000/fs-b3e3010000000000
+#EXTINF:-1,News 12 Long Island(Stream 1)
+rtmp://fs-b4e3010000000000.id.cdn.cv.net/vxedge/fs-b4e3010000000000/fs-b4e3010000000000
+#EXTINF:-1,News Bronx(Stream 1)
+rtmp://fs-b5e3010000000000.id.cdn.cv.net/vxedge/fs-b5e3010000000000/fs-b5e3010000000000
+#EXTINF:-1,News Connecticut(Weather)
+rtmp://fs-b6e3010000000000.id.cdn.cv.net/vxedge/fs-b6e3010000000000/fs-b6e3010000000000
+#EXTINF:-1,News Hudson Valley(Weather)
+rtmp://fs-b8e3010000000000.id.cdn.cv.net/vxedge/fs-b8e3010000000000/fs-b8e3010000000000
+#EXTINF:-1,News Westchester(Weather from Hudson Valley)
+rtmp://fs-b8e3010000000000.id.cdn.cv.net/vxedge/fs-b8e3010000000000/fs-b8e3010000000000
+#EXTINF:-1,News Long Island(Stream 2)
+rtmp://fs-b94e110000000000.id.cdn.cv.net/vxedge/fs-b94e110000000000/fs-b94e110000000000
+#EXTINF:-1,News New Jersey(Stream 1)
+rtmp://fs-b9e3010000000000.id.cdn.cv.net/vxedge/fs-b9e3010000000000/fs-b9e3010000000000
+#EXTINF:-1,News Hudson Valley(Stream 1)
+rtmp://fs-bae3010000000000.id.cdn.cv.net/vxedge/fs-bae3010000000000/fs-bae3010000000000
+#EXTINF:-1,News Connecticut(Stream 1)
+rtmp://fs-bbe3010000000000.id.cdn.cv.net/vxedge/fs-bbe3010000000000/fs-bbe3010000000000
+#EXTINF:-1,News Westchester(Stream 1)
+rtmp://fs-bce3010000000000.id.cdn.cv.net/vxedge/fs-bce3010000000000/fs-bce3010000000000
+#EXTINF:-1,BBC CCC USA
+rtmp://$OPT:rtmp-raw=rtmpe://live.wowcast.tv:1935/redirect/ playpath=bbcccc swfUrl=http://www.wowcast.tv/player/player.swf pageUrl=http://www.wowcast.tv/embed.php?stream=bbcccc&vw=600&vh=430
+#EXTINF:-1,CBS USA
+rtmp://$OPT:rtmp-raw=rtmpe://watch.playfooty.tv/live playpath=cbss1569 swfUrl=http://www.playfooty.tv/play/player/player.swf live=1 pageUrl=http://www.playfooty.tv/play/embed.php?u=cbss1569&vw=600&vh=430
+#EXTINF:-1,SYFY HD USA
+rtmp://$OPT:rtmp-raw=rtmpe://watch.playfooty.tv/live playpath=syfy1569 swfUrl=http://www.playfooty.tv/play/player/player.swf live=1 pageUrl=http://www.playfooty.tv/play/embed.php?u=syfy1569&vw=600&vh=430
+#EXTINF:-1,TBS USA
+rtmp://$OPT:rtmp-raw=rtmpe://watch.playfooty.tv/live playpath=tbs1569 swfUrl=http://www.playfooty.tv/play/player/player.swf live=1 pageUrl=http://www.playfooty.tv/play/embed.php?u=tbs1569&vw=600&vh=430
+#EXTINF:-1,Access San Francisco 1
+rtmp://208.69.42.59/live/stream29
+#EXTINF:-1,Pentagon Channel
+rtmp://cp114761.live.edgefcs.net:443/live/tpc-live_1@44263
+#EXTINF:-1,Alhurra Tv
+rtmp://cp51007.live.edgefcs.net/live/Alhurra_Flash@15
+#EXTINF:-1,C-SPAN 1 TV
+rtmp://cp82346.live.edgefcs.net/live/CSPAN1@14845
+#EXTINF:-1,C-SPAN 2 TV
+rtmp://cp82347.live.edgefcs.net/live/CSPAN2@14846
+#EXTINF:-1,C-SPAN 2 TV
+rtmp://cp82348.live.edgefcs.net/live/CSPAN3@14847
+#EXTINF:-1,Mission TV
+rtmp://streamer1.streamhost.org/salive/GMImissiontvh
+#EXTINF:-1,Mission TV
+rtmp://streamer1.streamhost.org/salive/GMImissiontvh
+#EXTINF:-1,City of Boston TV English
+rtmp://streaming.cityofboston.gov/live/cable
+#EXTINF:-1,University of California TV
+rtmp://ucsdtv-wowza.ucsd.edu:1935/live/live_800
+#EXTINF:-1,HSN TV
+rtsp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:420p500kB31
