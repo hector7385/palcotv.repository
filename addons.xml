@@ -31,7 +31,7 @@
 		<datadir zip="true">https://github.com/Juarrox/palcotv.repository/raw/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio de PalcoTV</summary>
+		<summary>Repositorio PalcoTV</summary>
 		<description>Repositorio PalcoTV: http://palcotv.blogspot.com.es</description>
 		<platform>all</platform>
 	</extension>
