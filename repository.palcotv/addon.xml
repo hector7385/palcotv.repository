@@ -11,9 +11,3 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
-<info compressed="false">http://bitbucket.org/mash2k3/mash2k3-repository/raw/master/addons.xml</info>
-
-<checksum>http://bitbucket.org/mash2k3/mash2k3-repository/raw/master/addons.xml.md5</checksum>
-
-<datadir zip="true">http://bitbucket.org/mash2k3/mash2k3-repository/raw/master/zips</datadir>
