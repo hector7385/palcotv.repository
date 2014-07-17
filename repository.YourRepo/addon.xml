@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
-<addon id="plugin.video.myfirstplugin"
-       name="My First Plugin...XBMCHUB.COM"
-       version="1.0"
-       provider-name="Mikey1234">
-  <requires>
-    <import addon="xbmc.python" version="2.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">My First Plugin</summary>
-    <description lang="en">my first plugin description</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.YourRepo" name="HELLO REPO" version="1.0" provider-name="HELLO Your Name">
 	<extension point="xbmc.addon.repository" name="HELLO Addon Repository">
 		<info compressed="false">http://github.com/CHANGEME/My-Repo/raw/master/addons.xml</info>
@@ -30,4 +11,4 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>
+
