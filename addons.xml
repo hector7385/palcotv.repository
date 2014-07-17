@@ -26,12 +26,12 @@
 
 <addon id="repository.palcotv" name="PalcoTV Repository" version="1.0.1" provider-name="PalcoTV by Juarrox">
 	<extension point="xbmc.addon.repository" name="palcotv.repository">
-		<info compressed="false">https://github.com/Juarrox/palcotv.repository/master/raw/addons.xml</info>
-		<checksum>https://github.com/Juarrox/palcotv.repository/master/raw/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/Juarrox/palcotv.repository/master/raw/zips</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml</info>
+		<checksum>https://github.com/Juarrox/palcotv.repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Juarrox/palcotv.repository/raw/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>PalcoTV repository</summary>
+		<summary>Repositorio de PalcoTV</summary>
 		<description>Repositorio PalcoTV: http://palcotv.blogspot.com.es</description>
 		<platform>all</platform>
 	</extension>
