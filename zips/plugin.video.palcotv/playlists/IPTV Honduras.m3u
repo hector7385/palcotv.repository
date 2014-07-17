@@ -1,0 +1,42 @@
+#EXTINF:-1 group-title="Honduras",TV Centro Canal 67 HD
+rtmp://$OPT:rtmp-raw=rtmp://playerstreaming.net:1935/tvcentro67 playpath=tvcentro67 swfUrl=http://streamwowza.com/system/misc/flvplayer/FLVplayer_Custom.swf live=1 pageUrl=http://centroradialhn.net/tvonline.html
+#EXTINF:-1 group-title="Honduras",STO HD
+http://iphone-streaming.ustream.tv/uhls/5523544/streams/live/iphone/playlist.m3u8
+#EXTINF:-1 group-title="Honduras",TN 5 HD
+http://hls1.livestreamingcdn.com/livecdn517/mystream/chunklist_w2122084744.m3u8
+#EXTINF:-1 group-title="Honduras",Honduras TV
+rtmp://$OPT:rtmp-raw=rtmp://4.30.20.151/hondurastv playpath=hondurastv swfUrl=http://cpanel.netpatio.com/swfs/jwplayer/player.swf live=1 pageUrl=http://www.telecatracha.com/2011/02/honduras-tv.html
+#EXTINF:-1 group-title="Honduras",Maya TV
+rtmp://$OPT:rtmp-raw=rtmp://4.30.20.151/mayaTv playpath=mayaTv swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/66/MayaTv
+#EXTINF:-1 group-title="Honduras",Si! TV
+rtmp://$OPT:rtmp-raw=rtmp://91.121.159.50:554/sitv/ playpath=radiostation.stream swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/68/SiTv
+#EXTINF:-1 group-title="Honduras",MVC
+rtmp://$OPT:rtmp-raw=rtmp://hd.worldkast.com:1935/8306/_definst_ playpath=mp4:83061 swfUrl=http://4.30.20.131/players/worldkast/jwplayer.flash.swf live=1 pageUrl=http://control.worldkast.com/players/worldkast/mivina.html
+#EXTINF:-1 group-title="Honduras",TeleCeiba 7
+mms://190.11.224.14/Transmision_Vivo
+#EXTINF:-1 group-title="Honduras",Canal 10
+rtmp://$OPT:rtmp-raw=rtmp://hd.worldkast.com:1935/8378/ playpath=83781 swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/10/TEN
+#EXTINF:-1 group-title="Honduras",Canal 11
+rtmp://$OPT:rtmp-raw=rtmp://cdn6000.divistech.com:1946/honduras2/ playpath=canal51 swfUrl=http://static2.sawlive.tv/player.swf? live=1 pageUrl=http://lempirat.blogspot.com.es/p/11_31.html
+#EXTINF:-1 group-title="Honduras",Canal i 11 HD
+http://72.46.226.53/live01/_definst_/canal111/playlist.m3u8
+#EXTINF:-1 group-title="Honduras",Hondured Canal 13
+rtmp://$OPT:rtmp-raw=rtmp://173.236.71.62/hondured playpath=hrtv.sdp swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/13/Hondured
+#EXTINF:-1 group-title="Honduras",Telered 21
+rtmp://$OPT:rtmp-raw=rtmp://cdn5.iviplanet.com/Telered21 playpath=myStream.sdp swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/21/Telered
+#EXTINF:-1 group-title="Honduras",45 TV
+rtmp://$OPT:rtmp-raw=rtmp://shared.flashwebtown.com/lirias/ playpath=45TV swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/45/45Tv
+#EXTINF:-1 group-title="Honduras",Life TV
+rtmp://$OPT:rtmp-raw=rtmp://tvhd.rtmp.info/lifetv/ playpath=envivo swfUrl=http://www.comunicacioneshonduras.com/tv/tvhd.swf live=1 pageUrl=http://www.telecatracha.com/2013/11/life-tv.html
+#EXTINF:-1 group-title="Honduras",HCH
+rtmp://$OPT:rtmp-raw=rtmp://38.96.148.78:1935/live playpath=hchtvdigital swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/504/HCH
+#EXTINF:-1 group-title="Honduras",Alfa Omega Visión
+rtmp://$OPT:rtmp-raw=rtmp://serverstreamgroup.biz/aovis playpath=aovis swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/69/AlfaOmegaVision
+#EXTINF:-1 group-title="Honduras",TV San Marcos
+rtmp://$OPT:rtmp-raw=rtmp://38.96.148.78:1935/live playpath=tvsanmarcos swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/504/TvSanMarcos
+#EXTINF:-1 group-title="Honduras",Teleport
+rtmp://$OPT:rtmp-raw=rtmp://201.190.37.10:1935/live playpath=live swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback.swf
+#EXTINF:-1 group-title="Honduras",Globo TV
+rtmp://$OPT:rtmp-raw=rtmp://m.streamfull.com.ar:8979/live/ playpath=globotv swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/2/GloboTv
+#EXTINF:-1 group-title="Honduras",Cholusat Sur
+rtmp://$OPT:rtmp-raw=rtmp://live.audiotvserver.com:1935/livemedia playpath=cholusat swfUrl=http://www.honduras504.com/ayv/player.swf live=1 pageUrl=http://www.honduras504.com/tv/36/CholusatSur

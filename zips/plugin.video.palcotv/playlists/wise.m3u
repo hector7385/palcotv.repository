@@ -1,0 +1,17 @@
+#EXTINF:-1,DISCOVERY MAX
+http://www.9stream.com/embedplayer.php?width=650&height=400&channel=124&autoplay=true
+
+#EXTINF:-1,NATIONAL GEOGRAPHIC
+http://www.9stream.com/embedplayer.php?width=650&height=400&channel=125&autoplay=true
+
+#EXTINF:-1,BUZZ
+http://flashstreaming.mobi/emb/embed.php?n=z0042buxx&w=650&h=400
+
+#EXTINF:-1,CALLE 13
+http://flashstreaming.mobi/emb/embed.php?n=z0032ca13&w=650&h=400
+
+#EXTINF:-1,HISPANTV
+rtmp://mtv.fms-01.visionip.tv/live/mtv-m_tv-live-25f-4x3-SDh
+
+#EXTINF:-1,HISTORIA
+http://www.9stream.com/embedplayer.php?width=650&height=400&channel=100&autoplay=true

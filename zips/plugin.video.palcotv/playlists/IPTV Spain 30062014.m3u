@@ -1,0 +1,11 @@
+#EXTINF:-1,Canal +
+rtmp://$OPT:rtmp-raw=rtmp://2.flashstreaming.mobi/edge?token=WtfSbwl8jFCaN2ONPzS2FwExpired=1404118132 playpath=z0013plus swfUrl=http://freebroadcast.pw/player/player.swf live=1 pageUrl=http://flashstreaming.mobi/emb/embed.php?n=z0013plus&w=650&h=400
+
+#EXTINF:-1,GOLT
+rtmp://$OPT:rtmp-raw=rtmp://2.flashstreaming.mobi/edge?token=AaOUh5ObycRRNQhud7nfLgExpired=1404117719 playpath=z0006golt swfUrl=http://freebroadcast.pw/player/player.swf live=1 pageUrl=http://flashstreaming.mobi/emb/embed.php?n=z0006golt&w=650&h=400
+
+#EXTINF:-1,+TOROS
+rtmp://$OPT:rtmp-raw=rtmp://3.flashstreaming.mobi/edge?token=n1akIA48Gru0Vq1aJJtRMgExpired=1404117432 playpath=z0012toro swfUrl=http://freebroadcast.pw/player/player.swf live=1 pageUrl=http://flashstreaming.mobi/emb/embed.php?n=z0012toro&w=650&h=400
+
+#EXTINF:-1,GOLT
+rtmp://$OPT:rtmp-raw=rtmp://81.17.20.46/iguide playpath=n2ht4g0kawwep37 swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/  token=#ed%h0#w18623jsda6523lDGD
