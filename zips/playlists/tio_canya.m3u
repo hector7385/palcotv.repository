@@ -1,0 +1,81 @@
+#EXTINF:-1,TV3 (Op. 1)
+rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/stream_ES_TV3_FLV
+
+#EXTINF:-1,IB3 (Op. 1)
+http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/IB3.m3u8
+
+#EXTINF:-1,IB3 (Op. 2)
+rtmp://ib3tvlivefs.fplive.net/ib3tvlive-live playpath=streamib3 swfUrl=http://ib3cdn.s3.amazonaws.com/player/player.swf live=1 pageUrl=http://www.omegateam.byethost7.com/ch/i-ib3.php --live
+
+#EXTINF:-1,TV3 (Op. 2)
+http://www.tv3.cat/directetv3cat/tv3catpc.m3u8
+
+#EXTINF:-1,TV3 CAT (Op. 1)
+http://tv3catnogeo-live.hls.adaptive.level3.net/tv3/tv3cat/tv3cat/tv3cat.m3u8
+
+#EXTINF:-1,TV3 CAT (Op. 2)
+http://www.tv3.cat/directetv3cat/tv3catpc.m3u8
+
+#EXTINF:-1,Esport 3
+rtmp://$OPT:rtmp-raw=rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/ playpath=stream_ES_ES3_FLV swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1
+
+#EXTINF:-1,CANAL33/SUPER3
+rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/stream_ES_33D_FLV
+
+#EXTINF:-1,3/24
+rtmp://tv-nogeo-flashlivefs.fplive.net:1935/tv-nogeo-flashlive-live?ovpfv=1.1/stream_324_FLV
+
+#EXTINF:-1,ESPORT3
+rtmp://tv-geoespanya-flashlivefs.fplive.net:1935/tv-geoespanya-flashlive-live?ovpfv=1.1/stream_ES_ES3_FLV
+
+#EXTINF:-1,8TV
+rtmp://94.23.54.177/8TV playpath=8aldia-directe swfUrl=http://css01.mundodeportivo.com/imagenes/players/player.swf pageURL=http://narrowcast.lavanguardia.com live=true
+
+#EXTINF:-1,LEVANTE TV
+rtmp://teledifusion.tv:1935/levantetvlive/levantetvlive
+
+#EXTINF:-1,GIRONA TV
+rtmp://81.95.0.67:19935/tvgirona/directe
+
+#EXTINF:-1,BARCELONA TV
+http://195.10.10.220/barcelonatv/barcelonatv-high.flv?fspref=aHR0cDovL3BsYXkuYmFyY2Vsb25hdHYyLndlYnR2LmZsdW1vdGlvbi5jb20vcGxheS9wbGF5ZXI%5FcGxheWVySWQ9OSZwb2RJZD0xMzIz&GKID=534967ca5d4e11e39eff00163ea2c744&token=b0cb9ca3b45eaef050ed5f9a8e691b31529fd97b52a12b37
+
+#EXTINF:-1,TV BADALONA
+rtmp://directe.tvbadalona.cat/live
+
+#EXTINF:-1,TV GIRONA
+rtmp://81.95.0.67:19935/tvgirona/directe
+
+#EXTINF:-1,TV GIRONA
+rtmp://81.95.0.67:19935/tvgirona
+
+#EXTINF:-1,VALENCIA TV
+http://195.55.74.207/rtvv
+
+#EXTINF:-1,BADALONA TV
+rtmp://directe.tvbadalona.cat/live
+
+#EXTINF:-1,BARCELONA TV
+rtmp://nws.nice264.com:1935/niceLiveBalancer/25tv_online
+
+#EXTINF:-1,CANAL 8 TELENORD
+rtmp://www.hostingcaribe.com:1935/canal8
+
+#EXTINF:-1,IBIZA 3 TV
+rtmp://ibthree.fc.llnwd.net/ibthree
+
+#EXTINF:-1,RAC5 TV
+rtmp://94.23.54.177/105TV
+
+#EXTINF:-1,VALLES ORIENTAL TELEVISION
+rtmp://xiptv-streaming.gnuine.com/ocasional5
+
+#EXTINF:-1,VALLES VISIO TELEVISION
+rtmp://www.vallesvisio.cat/endirecte
+
+#EXTINF:-1,VENDRELL TELEVISION
+rtmp://cdns724ste1010.multistream.net:80/elvendrell2live
+
+#EXTINF:-1,TELE ELX
+rtmp://xteleelxx.e.channel.livestream.com/mogulus-ed.ge/teleelx swfUrl=http://cdn.livestream.com/chromelessPlayer./v21/playerapi.swf pageUrl=http://www.infoexpres.es/s5901-TeleElx-en-directo.html token=bb22d46c4733f03fdb5c6af54fc6e9ff live=1
+
