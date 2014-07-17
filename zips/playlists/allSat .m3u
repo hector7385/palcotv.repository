@@ -1,0 +1,472 @@
+﻿#EXTM3U cache=2000 url-tvg="http://dl.dropboxusercontent.com/s/itwrc88hscp8vah/guide.zip?dl=1" tvg-shift=0
+
+#EXTINF:-1 ,Ac. 26 06 2014 By fcorona255
+httpm:/
+#EXTINF:-1,LIG
+
+#EXTINF:-1,beIN Sport 2
+http://hls01-04.az.myvideo.az/hls-live/livepkgr/sport2/sport2/sport2.m3u8&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,beIN Sport 3
+http://hls01-04.az.myvideo.az/hls-live/livepkgr/sport3/sport3/sport3.m3u8&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,beIN Sport 4
+http://hls01-04.az.myvideo.az/hls-live/livepkgr/sport4/sport4/sport4.m3u8&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,beIN Sport 5
+http://hls01-06.az.myvideo.az/hls-live/livepkgr/sport5/sport5/sport5.m3u8&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,beIN Sport 6
+http://hls01-06.az.myvideo.az/hls-live/livepkgr/sport6/sport6/sport6.m3u8&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,beIN Sport 7
+http://hls01-07.az.myvideo.az/hls-live/livepkgr/sport7/sport7/sport7.m3u8&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,beIN Sport 8
+http://hls01-07.az.myvideo.az/hls-live/livepkgr/sport8/sport8/sport8.m3u8&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,BRASIL - ESPN
+rtmp://174.127.73.32/master3/?_fcs_vhost=_defaultVHost_/1hd swfUrl=http://75.126.217.6/site/flash/player_aovivo.swf pageUrl=http://75.126.217.6/videoteca/play live=true timeout=10
+#EXTINF:-1,BTN
+rtmp://46.246.29.138:1935/stream/ playpath=0D1cF7GNSf.stream swfUrl=http://04stream.com/p/boopo.swf live=1 pageUrl=http://negmtv.altervista.org/php/sportsplayer3.php?ch=btn
+#EXTINF:-1,CHELSEA TV
+rtmp://cp96798.live.edgefcs.net/live/ChelTV_Ch01_1000k@26291
+#EXTINF:-1,Climb On
+rtsp://46.249.213.93/broadcast/climbon-tablet.3gp
+#EXTINF:-1,Drift 4 Ever
+rtsp://46.249.213.93/broadcast/drift4ever-tablet.3gp
+#EXTINF:-1,ESports 3
+rtmp://tv-nogeo-flashlivefs.fplive.net/tv-nogeo-flashlive-live/ playpath=stream_ES3_FLV swfUrl=http://04stream.com/p/boopo.swf live=1 pageUrl=http://negmtv.altervista.org/php/sportsplayer3.php?ch=Esport3
+#EXTINF:-1,Eurosport
+http://hls01-09.az.myvideo.az/hls-live/livepkgr/eurosport/eurosport/eurosport.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,Eurosport
+http://hls01-09.az.myvideo.az/hls-live/livepkgr/eurosport/eurosport/eurosport.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,Eurosport 2
+http://hls01-04.az.myvideo.az/hls-live/livepkgr/eurosport2/eurosport2/eurosport2.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,Fightbox HD
+http://spi-live.ercdn.net/spi/smil:fightboxhd_0.smil/bayash.m3u8
+#EXTINF:-1,FOX SPORT 2
+rtmp://5.63.144.244/live/foxsport2comp?id=204580 playpath=foxsport2comp?id=204580 swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=1 pageUrl=http://www.mips.tv/embedplayer/foxsport2comp/1/620/382 conn=S:OK
+#EXTINF:-1,FOX SPORTS
+rtmp://173.193.223.149/live playpath=foxsportcomp?id=204569 swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=1 pageUrl=http://www.mips.tv/ Conn=S:OK
+#EXTINF:-1,FOX SPORTS 1 USA
+rtmpe://89.248.174.14/live playpath=FUNKFOX1 swfUrl=http://ukcast.tv/player//player.swf live=1 pageUrl=http://www.ukcast.tv/
+#EXTINF:-1,FOX SPORTS 2 USA
+rtmpe://89.248.174.14/live playpath=FUNKFOX2 swfUrl=http://ukcast.tv/player//player.swf live=1 pageUrl=http://www.ukcast.tv/
+#EXTINF:-1,FOX SPORTS HD
+rtmp://173.193.46.104/live playpath=contrato?id=206521 swfUrl=http://www.mips.tv/content/scripts/eplayer.swf live=1 pageUrl=http://www.mips.tv/ Conn=S:OK
+#EXTINF:-1,Ghetto Kid
+rtsp://46.249.213.93/broadcast/ghettokid-tablet.3gp
+#EXTINF:-1,GMM Sport Two HD
+rtmp://58.97.57.150/live playpath=hd04 swfUrl=http://www.one2hd.com/swfs/mediaPlayer/mediaPlayer.swf pageUrl=http://www.one2hd.com/
+#EXTINF:-1,IDMAN TV
+http://hls01-07.az.myvideo.az/hls-live/livepkgr/idman/idman/idman.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,InterAz
+http://hls01-04.az.myvideo.az/hls-live/livepkgr/interaz/interaz/interaz.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,Kanalsport
+http://lswb-de-08.servers.octoshape.net:1935/live/kanalsport_2000k/playlist.m3u8
+#EXTINF:-1,MMA
+rtmp://extondemand.livestream.com:80/ondemand/trans/dv10/mogulus-user-files/chmmabaytv/2010/09/12/d9fbeee7-79aa-4ec2-98d2-1f1f168b91a3
+#EXTINF:-1,NBA TV HD
+http://nba247.cdnak.nbahd.neulion.com/mobile/nba/nba247/as/live/ipad_1840.m3u8
+#EXTINF:-1,NTV Football
+http://hls01-07.az.myvideo.az/hls-live/livepkgr/ntvfootball/ntvfootball/ntvfootball.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,NTV Online
+http://hls01-09.az.myvideo.az/hls-live/livepkgr/ntvonline/ntvonline/ntvonline.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,NTV SPOR
+http://hls01-08.az.myvideo.az/hls-live/livepkgr/ntvspor/ntvspor/ntvspor.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,Rubin TV
+rtmp://grey.ether.tv/live/rubin/broadcast4.flv pageUrl=http://www.planeta-online.tv pageUrl=http://www.planeta-online.tv/planeta_player.swf?ver=767 live=1
+#EXTINF:-1,RUS - 1 Sport
+http://178.49.132.73/streaming/sport1/tvrec/playlist.m3u8
+#EXTINF:-1,RUS - 1 Sport
+http://hls.novotelecom.ru/streaming/sport1/tvrec/playlist.m3u8
+#EXTINF:-1,RUS - Football
+http://hls.novotelecom.ru/streaming/futbol/tvrec/playlist.m3u8?
+#EXTINF:-1,Sevilla FC
+rtmp://flash0.80137-live0.dna.qbrick.com/80137-live0/sevillafc
+#EXTINF:-1,SKY CALCIO SPORT 1
+rtmp://31.220.0.134:1935/live playpath=sky1ita swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY CALCIO SPORT 2
+rtmp://31.220.0.134:1935/live playpath=sky2ita swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY CALCIO SPORT 24
+rtmp://31.220.0.134:1935/live playpath=calcio swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY SPORTS 1
+rtmp://31.220.0.134:1935/live playpath=sky1x swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY SPORTS 1
+rtmpe://80.82.64.144/live playpath=SKY1TEST swfUrl=http://ukcast.tv/player//player.swf live=1 pageUrl=http://www.ukcast.tv/
+#EXTINF:-1,SKY SPORTS 1
+rtmp://37.220.36.68:443/liverepeater playpath=42 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://filotv.pw/ token=#atd%#$ZH
+#EXTINF:-1,SKY SPORTS 2
+rtmp://31.220.0.134:1935/live playpath=sky2x swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY SPORTS 2
+rtmpe://80.82.64.144/live playpath=SKY2TEST swfUrl=http://ukcast.tv/player//player.swf live=1 pageUrl=http://www.ukcast.tv/
+#EXTINF:-1,SKY SPORTS 2
+rtmp://37.220.36.68:443/liverepeater playpath=43 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://filotv.pw/ token=#atd%#$ZH
+#EXTINF:-1,SKY SPORTS 3
+rtmp://37.220.36.68:443/liverepeater playpath=44 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://filotv.pw/ token=#atd%#$ZH
+#EXTINF:-1,SKY SPORTS 3
+rtmp://31.220.0.134:1935/live playpath=sky3x swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY SPORTS 4
+rtmp://37.220.36.68:443/liverepeater playpath=45 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://filotv.pw/ token=#atd%#$ZH
+#EXTINF:-1,SKY SPORTS 4
+rtmp://31.220.0.134:1935/live playpath=ss4x swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY SPORTS F1
+rtmp://31.220.0.134:1935/live playpath=sky1x swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY SPORTS F1
+rtmpe://80.82.70.225/live playpath=SKYF1FUNK swfUrl=http://ukcast.tv/player//player.swf live=1 pageUrl=http://www.ukcast.tv/
+#EXTINF:-1,SKY SPORTS NEWS
+rtmp://31.220.0.134:1935/live playpath=ssnx swfUrl=http://www.flashtv.co/ePlayerr.swf live=1 pageUrl=http://www.flashtv.co/ token=%ZZri(nKa@#Z
+#EXTINF:-1,SKY SPORTS NEWS
+rtmpe://80.82.64.144/live playpath=SKYNEWSFUNK swfUrl=http://ukcast.tv/player//player.swf live=1 pageUrl=http://www.ukcast.tv/
+#EXTINF:-1,SKY SPORTS NEWS
+rtmp://37.220.36.68:443/liverepeater playpath=41 swfUrl=http://static.surk.tv/atdedead.swf live=1 pageUrl=http://filotv.pw/ token=#atd%#$ZH
+#EXTINF:-1,SPORT TIME TV 1HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel1_1200
+#EXTINF:-1,SPORT TIME TV 1HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel1_800
+#EXTINF:-1,SPORT TIME TV 2HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel2_1200
+#EXTINF:-1,SPORT TIME TV 2HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel2_800
+#EXTINF:-1,SPORT TIME TV 3HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel3_800
+#EXTINF:-1,SPORT TIME TV 3HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel3_1200
+#EXTINF:-1,SPORT TIME TV 4HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel4_800
+#EXTINF:-1,SPORT TIME TV 4HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel4_1200
+#EXTINF:-1,SPORT TIME TV 5HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_800
+#EXTINF:-1,SPORT TIME TV 5HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_1200
+#EXTINF:-1,SPORT TIME TV 6HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel6_800
+#EXTINF:-1,SPORT TIME TV7 HD
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel7_800
+#EXTINF:-1,SPORT TIME TV7 HQ
+rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel7_1200
+#EXTINF:-1,Sport1
+http://hls01-06.az.myvideo.az/hls-live/livepkgr/sport01/sport01/sport01.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,Sports Tonight UK
+rtmp://freeview.fms.visionip.tv/live playpath=sports_tonight-sports_tonight-live-25f-16x9-SD?ref=www.sportstonightlive.com&USER=STL_0001 swfUrl=http://embeddedplayer.visionip.tv/data/swf/f22ee95bcec532c04146635a1a1adf00559/player.swf
+#EXTINF:-1,sportstv türk
+http://hls01-04.az.myvideo.az/hls-live/livepkgr/sport1/sport1/sport1.m3u8&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,SuperSport2
+http://149.255.39.122/aasd/8734/index.m3u8
+#EXTINF:-1,SuperSPort3
+http://149.255.39.122/aasd/8741/index.m3u8
+#EXTINF:-1,SuperSport4
+http://149.255.39.122/aasd/8743/index.m3u8
+#EXTINF:-1,TRACE SPORTS
+rtsp://46.249.213.87/broadcast/tracetvsports-tablet.3gp
+#EXTINF:-1,TRT SPOR
+http://hls01-08.az.myvideo.az/hls-live/livepkgr/trt3/trt3/trt3.m3u8?&OauJ&V5sqB8DjngV6ODt
+#EXTINF:-1,TURK - BURSASPOR TV
+http://stream.yayindayiz.biz/Bursaspor/bursaspor/hasbahca.m3u8
+#EXTINF:-1,TÜRK - FENERBAHÇE TV
+rtmp://live.master.cubecdn.net/fbtv playpath=stream1 swfUrl=http://live.master.cubecdn.net/player/stml/swf/flowplayer.commercial-3.2.16.swf live=true pageUrl=http://www.fbtvonline.com/
+#EXTINF:-1,TURK - NTV SPOR
+rtmp://85.132.44.99:1935/turktv playpath=ntvspor.sdp swfUrl=http://www.livetv.az/static/player/player.swf live=1 pageUrl=http://www.livetv.az/ntv-spor/
+#EXTINF:-1,TURK - TRT 3-SPOR
+http://82.220.10.66/udp/239.3.10.29:30000
+#EXTINF:-1,Turki - Idman TV
+http://hls01-07.az.myvideo.az/hls-live/livepkgr/idman/idman/idman.m3u8
+#EXTINF:-1,USA - College Football PAC Arizona 720p
+http://goo.gl/yy2Y0F
+#EXTINF:-1,USA - College Football PAC Arizona SD
+http://goo.gl/zFAlPa
+#EXTINF:-1,USA - College Football PAC Bay Area 720p
+http://goo.gl/gHG3ty
+#EXTINF:-1,USA - College Football PAC Bay Area SD
+http://goo.gl/N741Sk
+#EXTINF:-1,USA - College Football PAC Los Angeles 720p
+http://goo.gl/m4Xaul
+#EXTINF:-1,USA - College Football PAC Los Angeles SD
+http://goo.gl/4L4fym
+#EXTINF:-1,USA - College Football PAC National 1080p
+http://goo.gl/QihNtv
+#EXTINF:-1,USA - College Football PAC National 720p
+http://goo.gl/0CofPI
+#EXTINF:-1,USA - College Football PAC National SD
+http://goo.gl/hwnFUD
+#EXTINF:-1,USA - College Football PAC Washington 720p
+http://goo.gl/ZOww80
+#EXTINF:-1,USA - College Football PAC Washington SD
+http://goo.gl/cJQF9D
+#EXTINF:-1,USA - ESPN
+rtmp://46.246.29.130:1935/stream/ playpath=46terg.stream swfUrl=http://04stream.com/p/stv39/boopo.swf live=1 pageUrl=http://negmtv.altervista.org/php/sportsplayer3.php?ch=ESPN
+#EXTINF:-1,USA - ESPNb
+rtmp://31.7.58.250:1935/stream/ playpath=42q5retrgh.stream swfUrl=http://04stream.com/p/stv39/boopo.swf live=1 pageUrl=http://negmtv.altervista.org/php/sportsplayer3.php?ch=ESPNb
+#EXTINF:-1,USA - NFL
+rtmp://46.246.29.130:1935/stream/ playpath=bdpZdSfpz0.stream swfUrl=http://04stream.com/p/stv39/boopo.swf live=1 pageUrl=http://negmtv.altervista.org/php/sportsplayer3.php?ch=NFL1
+#EXTINF:-1,USA - PAC-12 Net. (Arizona)
+http://xrxs.net/video/live-p12ariz-4728.m3u8
+#EXTINF:-1,USA - PAC-12 Net. (Bay Area)
+http://xrxs.net/video/live-p12baya-4728.m3u8
+#EXTINF:-1,USA - PAC-12 Net. (Los Angeles)
+http://xrxs.net/video/live-p12losa-4728.m3u8
+#EXTINF:-1,USA - PAC-12 Net. (National)
+http://xrxs.net/video/live-p12netw-4728.m3u8
+#EXTINF:-1,USA - SMMTV
+rtmp://202.162.77.38/live/ playpath=iSMM.sdp swfUrl=http://04stream.com/p/stv39/boopo.swf live=1 pageUrl=http://negmtv.altervista.org/php/sportsplayer3.php?ch=SMMTV
+#EXTINF:-1,USA - TSN
+rtmp://46.246.29.138:1935/stream/ playpath=0D1cF7GNSf.stream swfUrl=http://04stream.com/p/stv39/boopo.swf live=1 pageUrl=http://negmtv.altervista.org/php/sportsplayer3.php?ch=btn
+#EXTINF:-1,Wrestling TV
+rtmp://77.50.145.30/live/rtplive
+#EXTINF:-1,YUNAN-GREEK - Tile Sport Tv
+rtmp://188.40.85.80/tilesport playpath=movie1 swfUrl=http://www.tilesport.tv/embed/mediaplayer.swf live=1 pageUrl=http://greekchannelslive2.blogspot.com/2011/01/tile-sport-tv-greece_4280.html
+
+
+
+
+#EXTINF:-1, - AM 1010 Onda Latina – Buenos Aires, AR
+http://iphone-streaming.ustream.tv/ustreamVideo/8744353streams/live/playlist.m3u8
+#EXTINF:-1, - AM SPORTS 
+http://iphone-streaming.ustream.tv/uhls/11602466/streams/live/iphone/playlist.m3u8
+#EXTINF:-1, -  TN 24 Horas
+rtmp://stream.tn.com.ar/live/tnmovil1 swfUrl=http://tn.com.ar/sites/all/themes/dientuki/swf/dplayer/player.swf live=1 pageUrl=http://tn.com.ar/
+#EXTINF:-1, - C5N
+rtmp://c5n.stweb.tv:1935/c5n playpath=live_media swfUrl=http://c5n.minutouno.com//js/c5n/jwplayer/player.swf live=1
+#EXTINF:-1, - C5N 
+rtmp://c5n.stweb.tv:1935/c5n/live
+#EXTINF:-1, - Camara De Diputados- H.C.D.N – 
+rtmp://argos.hcdn.gob.ar/live/evento-1-2.stream
+#EXTINF:-1, - CANAL 10 ENTRE RIOS 
+http://iphone-streaming.ustream.tv/ustreamVideo/253309/streams/live/playlist.m3u8
+#EXTINF:-1, - Canal 12 – Córdoba, Argentiina
+http://iphone-streaming.ustream.tv/ustreamVideo/10923213/streams/live/playlist.m3u8
+#EXTINF:-1, - CANAL 13 ARGENITNA
+rtsp://stream.eltrecetv.com.ar/live13/13tv/13tv1
+#EXTINF:-1, - Canal 13 TD (Telediario Digital) – Rio Cuarto, 
+http://iphone-streaming.ustream.tv/ustreamVideo/1358413/streams/live/playlist.m3u8
+#EXTINF:-1, - Canal 26
+http://200.115.194.1:8080/Canal26?MSWMExt=.asf
+#EXTINF:-1, - CANAL 26 mms
+mms://200.115.194.1:1755/Canal26
+#EXTINF:-1, - Canal 5 
+rtmp://c5n.stweb.tv:1935/c5n playpath=live swfUrl=http://c5n.minutouno.com/js/c5n/jwplayer/player.swf live=1 pageUrl=http://www.miscanalesdetv.net/2013/02/c5n.html
+#EXTINF:-1, - Canal 5 Tigre, 
+http://iphone-streaming.ustream.tv/ustreamVideo/11068260/streams/live/playlist.m3u8
+#EXTINF:-1, - Canal 79 Mar del Plata. 
+rtmp://144.76.17.146/cn79a/cn79a
+#EXTINF:-1, - Canal Rural 1
+rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural1
+#EXTINF:-1, - CANAL RURAL 2
+rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural2
+#EXTINF:-1, - CANAL RURAL 3
+rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural3
+#EXTINF:-1, - DOS 99.5 FM CORRIENTES 
+http://radiodos.coninfo.net:8500/stream?type=.flv&anticache=8342301029
+#EXTINF:-1, - H.C.D.N.
+rtmp://argos.hcdn.gob.ar/live/evento-1-2.stream
+#EXTINF:-1, - JUJUY TV CANAL 7 
+rtsp://200.43.187.18/canal7
+#EXTINF:-1, - LAPACHO TV CANAL 11 FORMOSA 
+rtmp://stream1.livestreamingservices.com:1935/tvcanal11 playpath=tvcanal11 swfUrl=http://www.lapachotv.com.ar/jwplayer/player.swf live=1 pageUrl=http://www.lapachotv.com.ar/vivo/
+#EXTINF:-1, - Nuestra Radio, Cordoba,  – VIDEO STREAM
+http://iphone-streaming.ustream.tv/ustreamVideo/15271401/streams/live/playlist.m3u8
+#EXTINF:-1, - Quiero Musica mms
+mms://200.42.92.6:1755/qmusica
+#EXTINF:-1, - TN24 AR
+rtmp://stream.tn.com.ar/live playpath=tnhd3 swfUrl=http://tn.com.ar/sites/all/themes/dientuki/swf/dplayer/player.swf live=1 pageUrl=http://tn.com.ar/envivo/24hs/HD
+#EXTINF:-1, - Tucuman Canal 5
+rtsp://mobil.tucuman.tv/edge/scwsttv506460643395c
+#EXTINF:-1, - VIVRA TV
+http://iphone-streaming.ustream.tv/uhls/10002020/streams/live/iphone/playlist.m3u8
+#EXTINF:-1, Redadvenir
+rtmp://streamer1.streamhost.org/salive/GMIalfam
+#EXTINF:-1, -  LCN
+rtmp://cp39414.live.edgefcs.net/live/argent@9751 playpath=argent@9751 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://www.stream2video.tv/get - /119/1
+#EXTINF:-1, -  METROVISION
+rtmp://cp228779.live.edgefcs.net:1935/live playpath=metrovision_live@138690 swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf/[[DYNAMIC]]/1 live=1 pageUrl=http://www.stream2video.tv/get - /122/1
+#EXTINF:-1, -  SLTV
+rtmp://saltandlighttv.streamguys.net:80/live/ playpath=sltviphone.sdp swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/9.html
+#EXTINF:-1, - ARGENT TV
+rtmp://cp39414.live.edgefcs.net/live/argent@9751 playpath=argent@9751 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://tv.webactu-webtv.com/3/argent.html
+#EXTINF:-1, - LCN
+rtmp://cp39414.live.edgefcs.net/live/lcn1@9753/ playpath=lcn1@9753 swfUrl=http://tv.webactu-webtv.com/jwplayer1/jwplayer.flash.swf live=1 pageUrl=http://tv.webactu-webtv.com/3/lcn.html
+#EXTINF:-1, - METRO TV
+rtmp://cp228779.live.edgefcs.net:1935/live playpath=metrovision_live@138690 swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf/[[DYNAMIC]]/1 live=1 pageUrl=http://tv.webactu-webtv.com/3/metro.html
+#EXTINF:-1, - TVA2/TVA SPORTS
+rtmp://cp39414.live.edgefcs.net/live/shoptva@9752 playpath=shoptva@9752 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://tv.webactu-webtv.com/3/tva2.html
+#EXTINF:-1, - ANTOFAGASTA TV CANAL 30
+http://wow2.cl.digitalproserver.com/atv/atvvivo/atv.smil/hasbahca.m3u8
+#EXTINF:-1, - ARICA TV
+http://wow2.cl.digitalproserver.com/aricatv/aricatvvivo/aricatv.smil/chunklist_w725671068_b848000.m3u8
+#EXTINF:-1, - AYSEN TV
+http://wow2.cl.digitalproserver.com/aysentv/aysentvvivo/aysentv.smil/hasbahca.m3u8
+#EXTINF:-1, - AYSEN TV  OPTION 2
+http://wow2.cl.digitalproserver.com/aysentv/aysentvvivo/aysentv.smil/hasbahca.m3u8
+#EXTINF:-1, - C9 BIO BIO TV CONCEPCION
+http://wow2.cl.digitalproserver.com/c9//c9.smil/chunklist_w500751237_b1200000.m3u8
+#EXTINF:-1, - C9 BIO BIO TV CONCEPCION  OPTION 2
+http://wow2.cl.digitalproserver.com/c9//c9.smil/hasbahca.m3u8
+#EXTINF:-1, - CAMARA DE DIPUTADOS
+rtsp://origin.camara.ztreaming.com/origincamara8/streamcam8.sdp
+#EXTINF:-1, - CAMPUS TV TALCA
+http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w662421777_b848000.m3u8
+#EXTINF:-1, - CANAL 2 SAN ANTONIO
+rtmp://video.crear.com/live playpath=mp4:canal2.mp4 swfUrl=http://crear.tv/reproductores/player.swf live=1 pageUrl=http://crear.tv/canal2/
+#EXTINF:-1, - CANAL 5 PUERTO MONTT
+http://iphone-streaming.ustream.tv/ustreamVideo/16911585/streams/live/hasbahca.m3u8
+#EXTINF:-1, - CNN 
+rtsp://200.104.250.183/vtr_cnn_online/cnn-web/
+#EXTINF:-1, - CONTIVISION HD CONSTITUCION
+rtmp://stream1.eltelon.com:1935/live/contivision/contivision671
+#EXTINF:-1, - EL PINGUINO TV CANAL 4 PUNTA ARENAS
+http://streaming.elpinguino.com:1935/live/pinguinotv_360p/hasbahca.m3u8
+#EXTINF:-1, - MARRAQUETA TV SANTIAGO
+http://stream1.eltelon.com/live/marraqueta-tv/marraqueta-tv673/hasbahca.m3u8
+#EXTINF:-1, - MEGA HD SANTIAGO  OPTION 3
+rtsp://megatandas.ztreaming.com:80/megatandas/stream01megatandas04032013.sdp
+#EXTINF:-1, - QUINTAVISION VINA DEL MAR
+http://iphone-streaming.ustream.tv/ustreamVideo/2950729/streams/live/hasbahca.m3u8
+#EXTINF:-1, - ROCCO TV COYHAIQUE
+rtmp://stream1.eltelon.com:80/live/rocco-tv/ playpath=rocco-tv571 swfUrl=http://new.eltelon.com/resources/player/liveplayer/jwplayer.flash.swf live=1 pageUrl=http://new.eltelon.com/rocco-tv/canal/rocco-tv
+#EXTINF:-1, - SUB TV SANTIAGO
+http://190.196.9.186:8080/subtv
+#EXTINF:-1, - TV PATAGONIA PUNTA ARENAS
+http://69.164.193.177:1935/live/myStream/hasbahca.m3u8
+#EXTINF:-1, - TV SENADO
+http://senadortmp.janus.cl/senadotv/senado600/hasbahca.m3u8
+#EXTINF:-1, - TV5 LINARES
+http://v1.streamingamerica.com:1935/canal5/canal5/hasbahca.m3u8
+#EXTINF:-1, - TV5 LINARES  OPTION 2
+rtmp://v1.streamingamerica.com/canal5/ playpath=canal5 swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=1 pageUrl=http://www.tv5linares.cl/?page_id=4071
+#EXTINF:-1, - UNIACC TV CANAL 34 SANTIAGO
+http://upmv10.comcast.upmv.ustream.tv/0/1/40/40611/40611222/1_11176799_40611222.flv?tracking=ad6f16_61_1_0_0&src=ro&hash=7ae0
+#EXTINF:-1, - UNIVERSIDAD AUTONOMA TV TEMUCO
+http://stream1.eltelon.com:1935/live/universidad-autonoma/universidad-autonoma569/hasbahca.m3u8
+#EXTINF:-1, - UNIVERSIDAD AUTONOMA TV TEMUCO OPTION 2
+rtmp://stream1.eltelon.com:1935/live/universidad-autonoma/ playpath=universidad-autonoma569 swfUrl=http://new.eltelon.com/resources/player/liveplayer/jwplayer.flash.swf live=1 pageUrl=http://new.eltelon.com/uautonoma/canal/universidad-autonoma/video
+#EXTINF:-1, - VALLE TELEVISION CANAL 2 SAN FELIPE
+rtmp://flashmedia.aconcaguared.com/live/ playpath=live_605537_nhAdU2RY swfUrl=http://www.vtv2.cl/mp/player.swf live=1 pageUrl=http://www.vtv2.cl/vivo.html
+#EXTINF:-1, - VALLE TELEVISION CANAL 2 SAN FELIPE OPTION 2
+http://cdn.streamingmedia.cl:1935/live/rtmp.stream/hasbahca.m3u8
+#EXTINF:-1, - VERDECERCA TV PUERTO VARAS
+http://com.live.servidores.cl:1935/masivaco/livestream/hasbahca.m3u8
+#EXTINF:-1, TV
+rtsp://wow.tvn.cl:1935/envivo_edge/tv_m
+#EXTINF:-1, - Cable Noticias
+rtmp://50.23.172.98:1935/live/ playpath=cablenoticiastv
+#EXTINF:-1, - Canal 13
+rtmp://stream01.cyberfuel.com/SinartCanal13 playpath=livestream swfUrl=http://www.sinart.go.cr/canal13/sinart_video_canal13_480x360.swf live=1 pageUrl=http://wwitv.com/tv_channels/b2975.htm
+#EXTINF:-1, Canal 13
+rtmp://stream01.cyberfuel.com/SinartCanal13 playpath=livestream swfUrl=http://www.sinart.go.cr/canal13/sinart_video_canal13_480x360.swf live=1 pageUrl=http://wwitv.com/tv_channels/b2975.htm
+#EXTINF:-1, -  visión Internacional
+rtmp://88.191.88.244/alfa/vision
+#EXTINF:-1, - TELEUNIVERSO
+http://ss4.domint.net:1942/tu_str/universo/hasbahca.m3u8
+#EXTINF:-1, Mia Tv
+http://asx.domiplay.net:1935/rtplive/miatv.sdp/hasbahca.m3u8
+#EXTINF:-1,IAN Telenord Canal 10
+rtmp://mek2.mekstream.com:1935/telenord10 playpath=live2 swfUrl=http://www.mekstream.com/clients/telenord10/player-licensed.swf live=1 pageUrl=http://www.telenord.com.do/index.php/canales/canal10
+#EXTINF:-1,IAN Telenord Canal 8
+rtmp://mek2.mekstream.com:1935/telenord8 playpath=live2 swfUrl=http://www.mekstream.com/clients/telenord8/player-licensed.swf live=1 pageUrl=http://www.telenord.com.do/index.php/canales/canal8
+#EXTINF:-1, -  TV
+rtmp://38.96.148.216:1935/live playpath=tvn3 swfUrl=http://www.tv.ec/mod_video/player.swf live=1
+#EXTINF:-1, - LCN
+rtmp://cp39414.live.edgefcs.net:1935/live playpath=lcn1@9753 swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf/[[DYNAMIC]]/1 live=1 pageUrl=http://matelevision.blogspot.ca/2013/08/lcn.html
+#EXTINF:-1, - Savoir
+rtsp://stream2.canal.qc.ca/enOndes_haut_debit
+#EXTINF:-1, - 24 Horas TVE
+rtmp://rtvefs.fplive.net:443/rtve-live-live?ovpfv=2.1.2 playpath=RTVE_24H_LV3_WEB_NOG swfUrl=http://swf.rtve.es/swf/4.2.27/RTVEPlayerVideo.swf pageUrl=http://www.rtve.es/noticias/directo/canal-24h/ swfVfy=true live=true timeout=10
+#EXTINF:-1, - Ame canal 47
+rtmp://tv.domiplay.net:1935/rtplive/ame47.sdp
+#EXTINF:-1, - Antena Latina
+rtmp://ss4.domint.net:1962/al_str/antena
+#EXTINF:-1, - C5N noticias
+rtmp://c5n.stweb.tv:1935/c5n/live_media
+#EXTINF:-1, - CNN 
+rtmpt://200.83.3.28/CNN-/CNN-
+#EXTINF:-1, - Discovery MAX España
+rtmp://extondemand.livestream.com/ondemand/trans/dv15/mogulus-user-files/chdiscoverymax/2012/07/12/5faca113-13c2-4c8e-9d63-531036f3b107
+#EXTINF:-1, - EuroNews noticias en español
+rtmp://fr-par-10-stream-relay.hexaglobe.net:80/rtpeuronewslive playpath=es_video350_rtp.sdp swfUrl=http://es.euronews.com/media/player_live_1_14.swf live=1 pageUrl=http://es.euronews.com/noticias/en-directo/
+#EXTINF:-1, - hispantv
+rtmp://mtv.fms-01.visionip.tv/live/mtv-m_tv-live-25f-4x3-SDh
+#EXTINF:-1, - MiaTve Higuey
+rtmp://tv.domiplay.net:1935/rtplive/miatv.sdp
+#EXTINF:-1, - MTV 
+rtmp://extondemand.livestream.com/ondemand playpath=trans/union/mogulus-user-files/ch40tv/2008/07/03/5f104d19-82ae-4810-99e0-dc93269972f5
+#EXTINF:-1, - Musa visión canal 10 (SPM)
+rtmp://joelzaiter1.srfms.com:1963/live/musav.sdp
+#EXTINF:-1, - NBA Sport Channel
+rtmp://46.246.29.141:1935/stream/ playpath=K8l9h6j8.stream swfUrl=http://thecdn.04stream.com/p/boopo.swf live=schuster92 pageUrl=http://04stream.com/trackok.php?c=4351&s1=chkAusa
+#EXTINF:-1, - Peravia Visión Baní
+rtmp://ss4.domint.net:1966/pv_str/peravia
+#EXTINF:-1, - Platinium canal 50 La vega
+rtmp://tv.domiplay.net:1935/rtplive/platitv.sdp
+#EXTINF:-1, - Recuerdo canal 56
+rtmp://69.64.52.66:1935/rtplive/teledigital.sdp
+#EXTINF:-1, - SuperTeve 55
+rtmp://ss4.domint.net:2022/stv_str/tv55
+#EXTINF:-1, - Tele contacto canal 57 Santiago
+rtmp://stream.prostudionetwork.com:1957/telecontacto/TC
+#EXTINF:-1, - Tele digital canal 56
+rtmp://69.64.52.66:1935/rtplive/teledigital.sdp
+#EXTINF:-1, - Tele Union Santiago
+rtmp://stream.prostudionetwork.com:1945/teleunion/TU
+#EXTINF:-1, - Tele Universo canal 29
+rtmp://ss4.domint.net:1942/tu_str/ playpath=universo
+#EXTINF:-1, - Teleantillas
+rtmp://mek4.mekstream.com/teleantillas playpath=live3_source swfUrl=http://www.mekstream.com/clients/teleantillas/player-licensed.swf live=1 pageUrl=http://teleantillas.com.do/senal-en-vivo/
+#EXTINF:-1, - Telesistema
+rtmp://mek4.mekstream.com/telesistema playpath=live3 swfUrl=http://www.mekstream.com/clients/telesistema/player-licensed.swf live=1 pageUrl=http://telesistema11.com.do/senal-en-vivo/
+#EXTINF:-1, - Televida canal 41
+rtmp://69.175.12.34/live/ALOJADO_TELEVIDA
+#EXTINF:-1, - TV10 San Juan de la Maguana
+rtmp://174.127.77.205:1935/TV10/livestream
+#EXTINF:-1, - Vision 3000
+http://ss4.domint.net:1968/v3_str/v3000/playlist.m3u8
+#EXTINF:-1, - AZTECA NOTICIAS
+http://urtmpkal-f.akamaihd.net/i/077zoqxzy_1@130091/index_3_av-p.m3u8
+#EXTINF:-1, - C3N Canal 66
+rtmp://unirtmp.tulix.tv:1935/canal66/ playpath=myStream.sdp swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/17.html
+#EXTINF:-1, - Cadena tres 
+rtmp://unirtmp.tulix.tv:1935/canal44/myStream.sdp
+#EXTINF:-1, - Canal 11 
+rtmp://www.oncetvlive.tv:1935/livepkgr2 playpath=int3 swfUrl=http://www.oncetvlive.tv/StrobeMediaPlayback.swf live=1 pageUrl=http://www.elchoyerotv.tv/2013/09/canal-once-tv-en-vivo-online.html
+#EXTINF:-1, - Canal 22 de 
+rtmp://origen.cloudapp.net:1935/live/envivopc
+#EXTINF:-1, - Canal 22 
+rtmp://origen.cloudapp.net/live/ playpath=envivopc swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/15.html
+#EXTINF:-1, - Canal 24 horas
+rtmp://video.stream.mx/8058/ playpath=8058 swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/18.html
+#EXTINF:-1, - Canal 4 
+rtmp://159.16.243.10/live/canal4/canal4
+#EXTINF:-1, - Canal 44 
+rtmp://unirtmp.tulix.tv:1935/canal44/ playpath=myStream.sdp swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/16.html
+#EXTINF:-1, - Canal 5 de 
+rtmp://159.16.243.10/live/canal5/canal5
+#EXTINF:-1, - Canal 6 Guadalajara 
+rtmp://200.52.193.57:1935/live/unique/live_2650
+#EXTINF:-1, - canal44
+rtmp://unirtmp.tulix.tv:1935/canal44/ playpath=myStream.sdp swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/16.html
+#EXTINF:-1, - canal66
+rtmp://unirtmp.tulix.tv:1935/canal66/ playpath=myStream.sdp swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/17.html
+#EXTINF:-1, - CB Television
+rtmp://189.199.90.164:1935/live playpath=myStreamHD.sdp swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://www.stream2video.tv/getStream/132/1
+#EXTINF:-1, - CB Television 
+rtmp://189.199.90.164:1935/live/myStreamHD.sdp
+#EXTINF:-1, - ERH
+rtmp://72.233.78.178/live/ playpath=A swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.streamsportlive.me/20.html
+#EXTINF:-1, - milenio_centro
+http://brightcove03-f.akamaihd.net/milenio_centro_512k@101956
+#EXTINF:-1, - MULTIMEDIOS TV
+http://brightcove03-f.akamaihd.net/multimedios_tv_612k@55732?file=ChelTV_m3u8
+#EXTINF:-1, - oncetv
+rtmp://www.oncetvlive.tv:1935/livepkgr2 playpath=int3 swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf/[[DYNAMIC]]/1 live=1 pageUrl=http://www.stream2video.tv/getStream/137/1
+#EXTINF:-1, - Radio y Televisión Mexiquense
+rtmp://fss28.streamhoster.com:1935/lv_tvmexiquense/_definst_/broadcast1
+#EXTINF:-1, - TVMas 
+rtmp://50.7.98.234/rtv/videortv
+#EXTINF:-1, Canal 10
+rtmp://www.oncetvlive.tv:1935/livepkgr2 playpath=int3 swfUrl=http://www.oncetvlive.tv/StrobeMediaPlayback.swf
+#EXTINF:-1, CANAL 44
+rtmp://unirtmp.tulix.tv:1935/canal44/myStream.sdp
+#EXTINF:-1, Canal 44 Cd. Juarez, Chihuahua
+rtmp://unirtmp.tulix.tv:1935/canal44 playpath=myStream.sdp swfUrl=http://wwitv.com/player/player15.swf live=1
+#EXTINF:-1, -Mexiquense
+rtmp://fss28.streamhoster.com:1935/lv_tvmexiquense/_definst_ playpath=broadcast1 swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf/[[DYNAMIC]]/1 live=1 pageUrl=http://www.stream2video.tv/getStream/134/1
+#EXTINF:-1, Nuestravision
+rtmp://video.stream.mx/8058/8058
+#EXTINF:-1,Perú - Canal ATV Perú
+rtmp://d93.iblups.com/lives/Zld5BoM1Ne
+#EXTINF:-1,Perú - Lima Megavisión (Peru)
+rtmp://wow1.dallas.digitalproserver.com/redtv/redtvvivo playpath=mp4:livestream1 swfUrl=http://media.digitalproserver.com/v2/jw/6.7/jwplayer.flash.swf?v=67 live=1 pageUrl=http://media.digitalproserver.com/v2/live/redtv/
