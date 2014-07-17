@@ -24,20 +24,16 @@
 	</extension>
 </addon>
 
-<addon id="repository.palcotv"
-       name="palcotv addon repository"
-       version="1.0.1"
-       provider-name="juarrox">
-  <extension point="xbmc.addon.repository"
-             name="palcotv addon repository">
-		<info compressed="false">https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/Juarrox/palcotv.repository/tree/master/zips</datadir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Repository for Updated PalcoTV</summary>
-    <description lang="en">Repository for PalcoTV</description>
-    <platform>all</platform>
-  </extension>
+<addon id="repository.palcotv" name="Juarrox's XBMC Addons" version="1.0.1" provider-name="juarrox">
+	<extension point="xbmc.addon.repository" name="Juarrox's Addon PalcoTV Repository">
+		<info compressed="false">https://github.com/Juarrox/palcotv.repository/raw/master/addons.xml</info>
+		<checksum>https://github.com/Juarrox/palcotv.repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Juarrox/palcotv.repository/raw/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install PalcoTV</summary>
+		<description>Install PalcoTV by Juarrox</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
