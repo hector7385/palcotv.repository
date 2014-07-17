@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.palcotv"
-       name="PalcoTV Repository"
+       name="PalcoTV Repositorio"
        version="1.0.1"
        provider-name="juarrox">
   <extension point="xbmc.addon.repository"
-             name="PalcoTV Repository">
+             name="PalcoTV Repositorio">
 		<info compressed="false">https://raw.githubusercontent.com/Juarrox/palcotv.repository/master/addons.xml</info>
 		<checksum>https://github.com/Juarrox/palcotv.repository/raw/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/Juarrox/palcotv.repository/raw/master/zips</datadir>
