@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-    <setting id="ForzarVista" type="bool" label="30102" default="false"/>
-    <setting id="ViewMode" type="enum" label="30103" values="lista|movies|thumbnails" default="lista"/>
-</settings>
