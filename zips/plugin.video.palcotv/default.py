@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #------------------------------------------------------------
 # PalcoTV - XBMC Add-on by Juarrox (juarrox@gmail.com)
-# Version 0.2.9 (12.07.2014)
+# Version 0.2.9 (18.07.2014)
 #------------------------------------------------------------
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
 # Gracias a la librería plugintools de Jesús (www.mimediacenter.info)
@@ -55,7 +55,7 @@ def run():
 
 def main_list(params):
     plugintools.log("palcoTV.main_list "+repr(params))
-    data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv028.xml")
+    data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv0286.xml")
 
     set_view()
 
@@ -75,7 +75,7 @@ def main_list(params):
         date = plugintools.find_single_match(entry,'<date>(.*?)</date>')
         plugintools.add_item( action="" , title = title + date , fanart = art+'fanart.jpg' , thumbnail=art+'icon.png' , folder = False , isPlayable = False )
 
-    data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv028.xml")        
+    data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv0286.xml")        
     matches = plugintools.find_multiple_matches(data,'<channel>(.*?)</channel>')
     for entry in matches:
         title = plugintools.find_single_match(entry,'<name>(.*?)</name>')
@@ -347,14 +347,28 @@ def simpletv_items(params):
 
     if title == 'search.txt':
         busqueda = 'search.txt'
+        filename = title
         file = open(tmp + 'search.txt', "r")
         file.seek(0)
         data = file.readline()
         if data == "":
-            ok = plugintools.message("palcoTV", "Sin resultados")
+            ok = plugintools.message("PalcoTV", "Sin resultados")
             return ok
     else:
-        file = open(playlists + title, "r")
+        title = params.get("title")
+        title = parser_title(title)
+        ext = params.get("ext")
+        title_plot = params.get("plot")
+        if title_plot == "":
+            filename = title + "." + ext
+
+        if ext is None:
+            filename = title
+        else:
+            plugintools.log("ext= "+ext)
+            filename = title + "." + ext
+            
+        file = open(playlists + filename, "r")
         file.seek(0)
         data = file.readline()
         plugintools.log("data= "+data)
@@ -367,7 +381,7 @@ def simpletv_items(params):
         file.seek(0)
         num_items = len(file.readlines())
         print num_items
-        plugintools.add_item(action="" , title = '[COLOR lightyellow][B][I]playlist / '+ title +'[/I][/B][/COLOR]' , url = playlists + title , thumbnail = art + "icon.png" , fanart = art + 'fanart.jpg' , folder = False , isPlayable = False)
+        plugintools.add_item(action="" , title = '[COLOR lightyellow][B][I]playlist / '+ filename +'[/I][/B][/COLOR]' , url = playlists + title , thumbnail = art + "icon.png" , fanart = art + 'fanart.jpg' , folder = False , isPlayable = False)
                            
     # Lectura de items en lista m3u. ToDo: Control de errores, implementar lectura de fanart y thumbnail
     tipo = ""
@@ -564,6 +578,35 @@ def simpletv_items(params):
                         i = i + 1
                         continue
 
+            if data.startswith("udp") == True or data.startswith("rtp") == True:
+                print "udp"
+                url = data
+                url = parse_url(url)
+                plugintools.log("url retornada= "+url)
+                if tipo != "":  # Controlamos el caso de subcategoría de canales
+                    if busqueda == 'search.txt':
+                        plugintools.add_item( action = "play" , title = '[COLOR white] ' + titulo + '[COLOR red] [UDP][/COLOR][I][COLOR lightgreen] (' + origen + ')[/COLOR][/I]', url = url ,  thumbnail = art + "icon.png" , fanart = art + 'fanart.jpg' , folder = False , isPlayable = True )
+                        data = file.readline()
+                        i = i + 1
+                        continue
+                    else:
+                        plugintools.add_item( action = "play" , title = '[COLOR red][I]' + tipo + ' / [/I][/COLOR][COLOR white] ' + title + '[COLOR red] [UDP][/COLOR]' , url = url ,  thumbnail = art + "icon.png" , fanart = art + 'fanart.jpg' , folder = False , isPlayable = True )
+                        data = file.readline()
+                        i = i + 1
+                        continue
+                        
+                else:
+                    if busqueda == 'search.txt':
+                        plugintools.add_item( action = "play" , title = '[COLOR white] ' + titulo + '[COLOR red] [UDP][/COLOR][I][COLOR lightgreen] (' + origen + ')[/COLOR][/I]' , url = url ,  thumbnail = art + "icon.png" , fanart = art + 'fanart.jpg' , folder = False , isPlayable = True )
+                        data = file.readline()
+                        i = i + 1
+                        continue
+                    else:
+                        plugintools.add_item( action = "play" , title = '[COLOR white] ' + title + '[COLOR red] [UDP][/COLOR]' , url = url ,  thumbnail = art + "icon.png" , fanart = art + 'fanart.jpg' , folder = False , isPlayable = True )
+                        data = file.readline()
+                        i = i + 1
+                        continue                    
+
             if data.startswith("plugin") == True:
                 print "p2p"
                 title = title.split('"')
@@ -717,13 +760,16 @@ def getfile_url(params):
     title = params.get("title")
 
     if ext == 'plx':
+        filename = parser_title(title)
         filename = title + ".plx"  # El título del archivo con extensión (m3u, p2p, plx)
     elif ext == 'm3u':
         filename = params.get("plot")
+        # Vamos a quitar el formato al texto para que sea el nombre del archivo
+        filename = parser_title(title)
         filename = filename + ".m3u"  # El título del archivo con extensión (m3u, p2p, plx)
     else:
         ext == 'p2p'
-        filename = params.get("title")
+        filename = parser_title(title)
         filename = filename + ".p2p"  # El título del archivo con extensión (m3u, p2p, plx)
         
     plugintools.log("filename= "+filename)
@@ -1920,7 +1966,7 @@ def p2p_items(params):
     if title == "":
         title = params.get("title")
         
-    data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv028.xml")
+    data = plugintools.read("https://dl.dropboxusercontent.com/u/8036850/palcotv0286.xml")
     subcanal = plugintools.find_single_match(data,'<name>' + title + '(.*?)</subchannel>')
     thumbnail = plugintools.find_single_match(subcanal, '<thumbnail>(.*?)</thumbnail>')
     fanart = plugintools.find_single_match(subcanal, '<fanart>(.*?)</fanart>')
@@ -2341,7 +2387,136 @@ def set_view():
 
 
 
+def parser_title(title):
+    plugintools.log("palcoTV.parser_title " + title)
+
+    cyd = title
+
+    cyd = cyd.replace("[COLOR lightyellow]", "")
+    cyd = cyd.replace("[COLOR green]", "")
+    cyd = cyd.replace("[COLOR red]", "")
+    cyd = cyd.replace("[COLOR blue]", "")
+    cyd = cyd.replace("[COLOR royalblue]", "")
+    cyd = cyd.replace("[COLOR white]", "")
+    cyd = cyd.replace("[COLOR pink]", "")
+    cyd = cyd.replace("[COLOR cyan]", "")
+    cyd = cyd.replace("[COLOR steelblue]", "")
+    cyd = cyd.replace("[COLOR forestgreen]", "")
+    cyd = cyd.replace("[COLOR olive]", "")
+    cyd = cyd.replace("[COLOR khaki]", "")
+    cyd = cyd.replace("[COLOR lightsalmon]", "")
+    cyd = cyd.replace("[COLOR lightblue]", "")
+    cyd = cyd.replace("[COLOR lightpink]", "")
+    cyd = cyd.replace("[COLOR skyblue]", "")
+    cyd = cyd.replace("[COLOR greenyellow]", "")
+    cyd = cyd.replace("[COLOR yellow]", "")
+    cyd = cyd.replace("[COLOR yellowgreen]", "")
+    cyd = cyd.replace("[COLOR orangered]", "")      
+                
+    cyd = cyd.replace("[/COLOR]", "")
+    cyd = cyd.replace("[B]", "")
+    cyd = cyd.replace("[/B]", "")
+    cyd = cyd.replace("[I]", "")
+    cyd = cyd.replace("[/I]", "")
+    cyd = cyd.replace("[Auto]", "")
+
+    title = cyd
+    title = title.strip()
+    plugintools.log("title_parsed= "+title)
+    
+
+    return title
+
+
+
+def json_items(params):
+    plugintools.log("palcoTV.json_items "+repr(params))
+    data = plugintools.read(params.get("url"))
+
+    # plugintools.log("data= "+data)
+
+    matches = plugintools.find_multiple_matches(data, '"name"(.*?)}')
+    for entry in matches:
+        # plugintools.log("entry= "+entry)
+        if entry.find("isHost") <= 0:
+            title = plugintools.find_single_match(entry,'(.*?)\n')
+            title = title.replace(": ", "")
+            title = title.replace('"', "")
+            title = title.replace(",", "")
+            url = plugintools.find_single_match(entry,'"url":(.*?)\n')
+            url = url.replace('"', "")
+            url = url.strip()
+            plugintools.log("url= "+url)
+            plugintools.add_item( action="play" , title = title , url = url , folder = False , isPlayable = True )
+
+        else:
+            title = plugintools.find_single_match(entry,'(.*?)\n')
+            title = title.replace(": ", "")
+            title = title.replace('"', "")
+            title = title.replace(",", "")
+            url = plugintools.find_single_match(entry,'"url":(.*?)\n')
+            url = url.replace('"', "")
+            url = url.strip()
+            plugintools.log("url= "+url)
+            plugintools.add_item( action="play" , title = '[COLOR red]' + title + '[/COLOR]' , url = url , folder = False , isPlayable = True )
+                
+
+
+def youtube_playlists(params):
+    plugintools.log("palcoTV.youtube_playlists "+repr(params))
+    
+    data = plugintools.read( params.get("url") )
+        
+    pattern = ""
+    matches = plugintools.find_multiple_matches(data,"<entry(.*?)</entry>")
+    
+    for entry in matches:
+        plugintools.log("entry="+entry)
+        
+        title = plugintools.find_single_match(entry,"<titl[^>]+>([^<]+)</title>")
+        plot = plugintools.find_single_match(entry,"<media\:descriptio[^>]+>([^<]+)</media\:description>")
+        thumbnail = plugintools.find_single_match(entry,"<media\:thumbnail url='([^']+)'")
+        url = plugintools.find_single_match(entry,"<content type\='application/atom\+xml\;type\=feed' src='([^']+)'/>")
+
+        plugintools.add_item( action="youtube_videos" , title=title , plot=plot , url=url , thumbnail=thumbnail , folder=True )
+
+
+# Muestra todos los vídeos del playlist de Youtube
+def youtube_videos(params):
+    plugintools.log("palcoTV.youtube_videos "+repr(params))
+    
+    # Fetch video list from YouTube feed
+    data = plugintools.read( params.get("url") )
+    plugintools.log("data= "+data)
+    
+    # Extract items from feed
+    pattern = ""
+    matches = plugintools.find_multiple_matches(data,"<entry(.*?)</entry>")
+    
+    for entry in matches:
+        plugintools.log("entry="+entry)
+        
+        # Not the better way to parse XML, but clean and easy
+        title = plugintools.find_single_match(entry,"<titl[^>]+>([^<]+)</title>")
+        title = title.replace("I Love Handball | ","")
+        plot = plugintools.find_single_match(entry,"<summa[^>]+>([^<]+)</summa")
+        thumbnail = plugintools.find_single_match(entry,"<media\:thumbnail url='([^']+)'")
+        video_id = plugintools.find_single_match(entry,"http\://www.youtube.com/watch\?v\=([0-9A-Za-z_-]{11})")
+        url = "plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid="+video_id
+
+        # Appends a new item to the xbmc item list
+        plugintools.add_item( action="play" , title=title , plot=plot , url=url , thumbnail=thumbnail , isPlayable=True, folder=False )
+
+
+
+
+
+
+
+
+
 run()
+
 
 
 
